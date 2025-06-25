@@ -1,0 +1,191 @@
+{
+  "Menu": {
+    "CMSTooltip": "Inteligente, simples e fluido — calibração fácil",
+    "CRMTooltip": "Conheça seu cliente. Faça seu negócio crescer.",
+    "PPAPTooltip": "Qualidade garantida, peça por peça, sempre.",
+    "ProjectTooltip": "Simplifique projetos. Potencialize equipes."
+  },
+  "Header": {
+    "Product": "Produtos",
+    "Enquiry": "Solicitação de Produto",
+    "Contact": "Contate-Nos",
+    "About": "Sobre Nós",
+    "Dashboard": "Dashboard",
+    "Login": "Entrar",
+    "Logout": "Sair",
+    "Allproducts": "Todos os Produtos"
+  },
+  "Hero": {
+    "Title": "Grandes produtos são feitos",
+    "highlight": "por grandes equipes",
+    "Description": "Otimize seu negócio com soluções ERP avançadas, inovações da Indústria 4.0 e sistemas de gestão em nuvem. Do setor automotivo e aeroespacial à manufatura e comércio, entregamos software inteligente, escalável e seguro, adaptado ao seu setor.",
+    "button": {
+      "Contact": "Contate-Nos",
+      "readmore": "Leia mais",
+      "Viewall": "Ver todos os produtos",
+      "BookDemo": "Agendar Demonstração",
+      "OurClients": "Nossos Clientes"
+    },
+    "WhoWe": {
+      "Title": "Quem Somos",
+      "Description": "Empresa fundada em 2001, com sede e centro de P&D em Chennai. Iniciada por profissionais com vasta experiência na indústria manufatureira. A equipe da ASSPL possui experiência em design e implementação de sistemas ERP, soluções IIoT e Indústria 4.0, e produtos SaaS para empresas de todos os portes."
+    },
+    "count": {
+      "clients": "Clientes",
+      "years": "Anos",
+      "projects": "Projetos"
+    },
+    "product": {
+      "Title": "Nossos Produtos",
+      "cmspara1": "na nuvem — um sistema de Gestão de Calibração abrangente, eficiente e fácil de usar para gerenciar seus instrumentos e equipamentos.",
+      "cmspara2": "A calibração de instrumentos é um processo vital em qualquer indústria manufatureira para garantir qualidade e confiabilidade.",
+      "pmspara1": "auxilia no planejamento, produção, monitoramento e controle — com ações corretivas em tempo real no chão de fábrica.",
+      "pmspara2": "O objetivo do Production Management System é produzir produtos de qualidade na quantidade certa, no tempo certo, com eficiência de custos."
+    },
+    "DemoCard": {
+      "Title": "Pronto para transformar seu negócio?",
+      "para": "Agende uma demonstração personalizada para ver como nossas soluções podem resolver seus desafios específicos e impulsionar seu crescimento."
+    }
+  },
+  "About": {
+    "Title": "Sobre Nós",
+    "Description": "Empresa fundada em 2001, com sede e centro de P&D em Chennai, criada por profissionais com ampla experiência na indústria manufatureira.",
+    "para": "A equipe de gestão da ASSPL possui experiência prática em design e implementação de",
+    "highlight": "sistemas ERP, soluções Indústria 4.0 & IIoT e produtos SaaS",
+    "para1": "para pequenas, médias e grandes empresas.",
+    "para2": "A equipe tem expertise em automotivo, aeroespacial, fundição, couro e gestão de projetos. Entende os requisitos de certificações de qualidade (ISO, TS e ambientais) e auxiliou grandes empresas a conquistá-las.",
+    "para3": "Com profundo conhecimento em normas ISO, TS e ambientais, nossa equipe oferece vantagem competitiva.",
+    "para4": "O time de desenvolvimento entrega soluções prontas para PMEs rapidamente, além de desenvolver soluções personalizadas para grandes empresas.",
+    "Vision": "Nossa Visão",
+    "VisionPara": "Levar produtos tecnológicos — IIoT, Indústria 4.0 e soluções SaaS — às empresas de todos os tamanhos, superando sempre suas expectativas.",
+    "Mission": "Nossa Missão",
+    "MissionPara": "Fornecer os melhores produtos tecnológicos e soluções SaaS do mundo, capacitando empresas a prosperar.",
+    "Values": "Nossos Valores",
+    "ValuesPara": "Atendemos às necessidades dos clientes, assumimos responsabilidades, entregamos no prazo e buscamos excelência, estabilidade e crescimento.",
+    "WhyChoose": {
+      "Title": "Por que nos escolher?",
+      "Subtitle": "6 Motivos para ser nosso parceiro",
+      "Point1": "Especialistas em software de engenharia",
+      "dec1": "Desde 2001, criamos soluções de engenharia e softwares personalizados para empresas como a sua.",
+      "Point2": "Equipe altamente qualificada",
+      "dec2": "Nossos especialistas dominam automação, software empresarial e engenharia.",
+      "Point3": "Suporte rápido e confiável",
+      "dec3": "Oferecemos assistência ágil para minimizar downtime.",
+      "Point4": "Reconhecimento global",
+      "dec4": "Mais de duas décadas focadas em qualidade, confiabilidade e parcerias duradouras.",
+      "Point5": "Software personalizado",
+      "dec5": "De ferramentas de engenharia a CRM e PPAP, desenvolvemos soluções sob medida.",
+      "Point6": "Tecnologia simples e intuitiva",
+      "dec6": "Tornamos a tecnologia complexa fácil de usar e integrar."
+    },
+    "Team": {
+      "Title": "Nosso Time de Liderança",
+      "name1": "R Rajagopalan",
+      "position1": "Presidente",
+      "dec1": "Mais de 35 anos de experiência na indústria automotiva, engenharia industrial, planejamento de produção, sistemas de fábrica e gestão de materiais.",
+      "name2": "S Rajasekaran",
+      "position2": "Diretor-Geral",
+      "dec2": "Mais de 30 anos em gestão de materiais, design de sistemas e finanças; fundador e CEO da ASSPL.",
+      "name3": "R Abilash Chakaravarth",
+      "position3": "Diretor Executivo",
+      "dec3": "Mais de 8 anos em design e desenvolvimento de produtos, detentor de patentes, CEO da ASSPL.",
+      "name4": "R Abishek Karthik",
+      "position4": "Diretor Executivo",
+      "dec4": "Formado em engenharia mecânica e MBA, com 5 anos de experiência no setor manufatureiro e especialização em desenvolvimento de produtos.",
+      "name5": "S Anandh",
+      "position5": "Chefe de Tecnologia",
+      "dec5": "Mais de 20 anos projetando sistemas ERP escaláveis e seguros, otimizando processos e promovendo crescimento."
+    }
+  },
+  "ProductEnquiry": {
+    "Title": "Solicitação de Produto",
+    "ContactTitle": "Contate-Nos",
+    "Subtitle": "Fale conosco e agende uma demo hoje!",
+    "code": "BR",
+    "Form": {
+      "Name": "Nome",
+      "NamePlaceholder": "Informe seu nome",
+      "Company": "Nome da Empresa",
+      "CompanyPlaceholder": "Informe o nome da sua empresa",
+      "Email": "E‑mail Comercial",
+      "EmailPlaceholder": "Informe seu e‑mail",
+      "Mobile": "Celular",
+      "Location": "Sua Localização",
+      "LocationPlaceholder": "Informe sua localização",
+      "Product": "Produto de Interesse",
+      "ProductPlaceholder": "Informe o nome do produto",
+      "Queries": "Dúvidas",
+      "QueriesPlaceholder": "Informe suas dúvidas",
+      "Submit": "Enviar",
+      "Submitting": "Enviando...",
+      "EmailError": "Por favor, informe um e‑mail válido.",
+      "PhoneError": "Por favor, informe um telefone válido.",
+      "CheckboxError": "Selecione ao menos um produto."
+    },
+    "Messages": {
+      "Success": "Mensagem enviada com sucesso!",
+      "Failure": "Houve um erro ao enviar. Por favor, tente novamente mais tarde.",
+      "ValidationUnavailable": "Serviço de validação de e‑mail indisponível."
+    },
+    "contacts": {
+      "contact": "Contato",
+      "Us": "",
+      "Subtitle": "Contato & Agende uma",
+      "highlight": "Demo hoje!",
+      "directContacts": "Contatos Diretos",
+      "callSchedule": "Ligação ou videochamada",
+      "support": "Suporte",
+      "sales": "Vendas",
+      "consult": "Consultoria especializada",
+      "consultSubtext": "Analisar necessidades & oferecer demo",
+      "customDev": "Solicitação de desenvolvimento",
+      "customDevSubtext": "Precisa falar com desenvolvedores?",
+      "supportRequests": "Requisições de Suporte",
+      "supportSubtext": "Tem perguntas? Precisa de ajuda?",
+      "visitUs": "Nos Visite",
+      "address": "#306, 2º Andar, NSIC‑Software Technology Business Park, B‑24, Guindy Industrial Estate, Ekkatuthangal, Chennai‑600032, Índia",
+      "callUs": "Ligue para nós",
+      "emailUs": "Envie-nos um email",
+      "Mobile": "Celular"
+    }
+  },
+  "Footer": {
+    "contactUs": "Contate-Nos",
+    "address": "#306, 2º Andar, NSIC‑Software Technology Business Park, B‑24, Guindy Industrial Estate, Ekkatuthangal, Chennai‑600032, Índia",
+    "links": {
+      "company": "Empresa",
+      "help": "Ajuda",
+      "customerSupport": "Suporte ao Cliente",
+      "blogs": "Blogs",
+      "terms": "Termos & Condições",
+      "privacy": "Política de Privacidade",
+      "about": "Sobre Nós",
+      "products": "Produtos",
+      "productEnquiry": "Solicitação de Produto",
+      "bookDemo": "Agendar Demo"
+    },
+    "copyright": "© 2025 Todos os direitos reservados"
+  },
+  "products": {
+    "Title": "Nossos Produtos",
+    "Subtitle": "Otimize seu negócio para operações mais rápidas e eficientes",
+    "Categories": "Categorias",
+    "Loading": "Carregando produtos",
+    "Nofound": "Nenhum produto encontrado",
+    "LearnMore": "Saiba Mais",
+    "Demobutton": "Agendar Demo",
+    "TryButton": "Experimentar agora",
+    "WhyChoose": "Por que escolher",
+    "WhoNeed": "Quem precisa",
+    "ProductImages": "Imagens do Produto",
+    "Customers": "Depoimentos de Clientes",
+    "plans": "Nossos Planos",
+    "all": "Tudo"
+  },
+  "Unauthorized": {
+    "Title": "Não Autorizado",
+    "para": "Desculpe, você não tem acesso a esta página. É reservada apenas para",
+    "highlight": "administradores",
+    "button": "Voltar ao Início"
+  }
+}

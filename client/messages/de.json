@@ -1,0 +1,198 @@
+{
+  "Menu": {
+    "CMSTooltip": "Intelligent, einfach und nahtlos – Kalibrierung leicht gemacht",
+    "CRMTooltip": "Kennen Sie Ihre Kunden. Wachsen Sie mit Ihrem Geschäft.",
+    "PPAPTooltip": "Qualität sichern – jedes Teil, jedes Mal.",
+    "ProjectTooltip": "Projekte vereinfachen. Teams stärken."
+  },
+
+  "Header": {
+    "Product": "Produkte",
+    "Enquiry": "Produktanfrage",
+    "Contact": "Kontaktieren Sie uns",
+    "About": "Über uns",
+    "Dashboard": "Dashboard",
+    "Login": "Anmelden",
+    "Logout": "Abmelden",
+    "Allproducts": "Alle Produkte"
+  },
+
+  "Hero": {
+    "Title": "Großartige Produkte entstehen",
+    "highlight": "durch großartige Teams",
+    "Description": "Optimieren Sie Ihr Unternehmen mit fortschrittlichen ERP-Lösungen, Innovationen von Industrie 4.0 und cloudbasierten Managementsystemen. Von Automobil- und Luftfahrtindustrie bis hin zu Fertigung und Handel bieten wir intelligente, skalierbare und sichere Software, die auf die Bedürfnisse Ihrer Branche zugeschnitten ist.",
+    "button": {
+      "Contact": "Kontaktieren Sie uns",
+      "readmore": "Mehr erfahren",
+      "Viewall": "Alle Produkte anzeigen",
+      "BookDemo": "Demo jetzt buchen",
+      "OurClients": "Unsere Kunden"
+    },
+    "WhoWe": {
+      "Title": "Wer wir sind",
+      "Description": "ein Unternehmen, das im Jahr 2001 gegründet wurde, mit Hauptsitz und F&E-Zentrum in Chennai. Gegründet von Fachleuten mit umfangreicher Erfahrung in der Fertigungsindustrie. Das Management-Team von ASSPL verfügt über praktische Erfahrung in der Entwicklung und Implementierung von ERP-Systemen, Industrie 4.0- und IIOT-Lösungen sowie SAAS-Produkten für kleine, mittlere und große Unternehmen."
+    },
+    "count": {
+      "clients": "Kunden",
+      "years": "Jahre",
+      "projects": "Projekte"
+    },
+    "product": {
+      "Title": "Unsere Produkte",
+      "cmspara1": "in der Cloud – ein umfassendes, effizientes und benutzerfreundliches Kalibrierungsmanagementsystem zur Verwaltung Ihrer Kalibrierungsanforderungen für Messgeräte.",
+      "cmspara2": "Die Kalibrierung von Messgeräten ist ein wesentlicher Prozess in jeder Fertigungsindustrie, um qualitativ hochwertige und zuverlässige Produkte zu gewährleisten.",
+      "pmspara1": "unterstützt bei Planung, Produktion, Überwachung und Steuerung – inklusive Korrekturmaßnahmen in Echtzeit auf dem Shopfloor.",
+      "pmspara2": "Ziel des Production Management Systems ist es, qualitativ hochwertige Produkte in der richtigen Menge zur richtigen Zeit kosteneffizient zu liefern."
+    },
+    "DemoCard": {
+      "Title": "Bereit für die Transformation Ihres Unternehmens?",
+      "para": "Vereinbaren Sie eine persönliche Demo, um zu sehen, wie unsere Lösungen Ihre Herausforderungen lösen und Ihr Wachstum fördern können."
+    }
+  },
+
+  "About": {
+    "Title": "Über uns",
+    "Description": "ein Unternehmen, das 2001 gegründet wurde, mit Hauptsitz und F&E-Zentrum in Chennai. Gegründet von Fachleuten mit umfassender Erfahrung in der Fertigungsindustrie.",
+    "para": "Das ASSPL-Management-Team verfügt über praktische Erfahrung in der Entwicklung und Implementierung von",
+    "highlight": " ERP-Systemen, Industrie 4.0- & IIOT-Lösungen und SAAS-Produkten",
+    "para1": "für kleine, mittlere und große Unternehmen.",
+    "para2": "Darüber hinaus verfügt das ASSPL-Team über funktionale Expertise in Bereichen wie Automobil, Luftfahrt, Gießerei, Leder und Projektmanagement. Sie verstehen die Anforderungen an Qualitätssysteme wie ISO, TS und Umweltzertifizierungen und haben erfolgreich Großunternehmen zur Zertifizierung geführt.",
+    "para3": "Das Team verfügt über umfassende Erfahrung in der Automobil-, Luftfahrt-, Gießerei-, Leder- und Projektmanagementbranche. Ihr Wissen über Qualitätssysteme wie ISO, TS und Umweltstandards verschafft ihnen einen Wettbewerbsvorteil.",
+    "para4": "Unser Entwicklungsteam liefert schnell fertige Lösungen für KMUs und maßgeschneiderte Lösungen für große Unternehmen.",
+    "Vision": "Unsere Vision",
+    "VisionPara": "Technologieprodukte – IIOT – Industrie 4.0 und SAAS-Modelle für alle Unternehmensgrößen bereitzustellen, die ihre Erwartungen übertreffen.",
+    "Mission": "Unsere Mission",
+    "MissionPara": "Die besten Technologieprodukte und SAAS-Lösungen der Welt zu liefern, damit Unternehmen erfolgreich sind.",
+    "Values": "Unsere Werte",
+    "ValuesPara": "Wir bieten Lösungen, die den Kundenanforderungen entsprechen, übernehmen Verantwortung, liefern pünktlich und streben nach Exzellenz, Stabilität und Wachstum.",
+    "WhyChoose": {
+      "Title": "Warum wir?",
+      "Subtitle": "6 Gründe, mit uns zusammenzuarbeiten",
+      "Point1": "Experten in Engineering-Software",
+      "dec1": "Seit 2001 entwickeln wir moderne Engineering- und Individualsoftwarelösungen für Unternehmen wie Ihres.",
+      "Point2": "Hochqualifiziertes & erfahrenes Team",
+      "dec2": "Unsere Experten sind auf Automatisierung, Unternehmenssoftware und Engineering-Lösungen spezialisiert.",
+      "Point3": "Schneller & zuverlässiger Support",
+      "dec3": "Wir bieten schnelle Unterstützung, um Ausfallzeiten zu minimieren und Ihre Abläufe am Laufen zu halten.",
+      "Point4": "Weltweites Vertrauen",
+      "dec4": "Über zwei Jahrzehnte Erfahrung mit Fokus auf Qualität, Zuverlässigkeit und langfristige Partnerschaften.",
+      "Point5": "Maßgeschneiderte Software",
+      "dec5": "Von Engineering-Tools bis zu Unternehmenslösungen wie CRM und PPAP – individuell angepasst.",
+      "Point6": "Einfache, benutzerfreundliche Technologie",
+      "dec6": "Wir vereinfachen komplexe Technologie für nahtlose Integration in Ihre Arbeitsabläufe."
+    },
+    "Team": {
+      "Title": "Unser Führungsteam",
+      "name1": "R Rajagopalan",
+      "position1": "Vorsitzender von",
+      "dec1": "Über 35 Jahre Erfahrung in der Automobilindustrie mit Schwerpunkt auf Produktionsplanung, Materialmanagement und strategischem Wachstum.",
+      "name2": "S Rajasekaran",
+      "position2": "Geschäftsführer von",
+      "dec2": "Über 30 Jahre Erfahrung in Materialwirtschaft, Systemdesign und Finanzen – Gründer und CEO von ASSPL.",
+      "name3": "R Abilash Chakaravarth",
+      "position3": "Vorstandsmitglied von",
+      "dec3": "8+ Jahre Erfahrung in Produktdesign & Entwicklung, Inhaber mehrerer Patente und CEO von ASSPL.",
+      "name4": "R Abishek Karthik",
+      "position4": "Vorstandsmitglied von",
+      "dec4": "Junger Maschinenbauingenieur mit MBA, 5 Jahre Erfahrung in der Fertigung – Fachwissen in Produktentwicklung.",
+      "name5": "S Anandh",
+      "position5": "Technischer Leiter von",
+      "dec5": "20+ Jahre Erfahrung als leitender Architekt für skalierbare ERP-Systeme – treibt Wachstum und Effizienz voran."
+    }
+  },
+
+  "ProductEnquiry": {
+    "Title": "Produktanfrage",
+    "ContactTitle": "Kontaktieren Sie uns",
+    "Subtitle": "Kontaktieren Sie uns und buchen Sie noch heute eine Demo!",
+    "code": "DE",
+    "Form": {
+      "Name": "Name",
+      "NamePlaceholder": "Geben Sie Ihren Namen ein",
+      "Company": "Firmenname",
+      "CompanyPlaceholder": "Geben Sie den Namen Ihres Unternehmens ein",
+      "Email": "Geschäftliche E-Mail",
+      "EmailPlaceholder": "Geben Sie Ihre E-Mail ein",
+      "Mobile": "Mobilnummer",
+      "Location": "Ihr Standort",
+      "LocationPlaceholder": "Geben Sie Ihren Standort ein",
+      "Product": "Produktinteresse",
+      "ProductPlaceholder": "Geben Sie den Produktnamen ein",
+      "Queries": "Fragen",
+      "QueriesPlaceholder": "Geben Sie Ihre Fragen ein",
+      "Submit": "Absenden",
+      "Submitting": "Wird gesendet...",
+      "EmailError": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "PhoneError": "Bitte geben Sie eine gültige Telefonnummer ein.",
+      "CheckboxError": "Bitte wählen Sie mindestens ein Produkt aus."
+    },
+    "Messages": {
+      "Success": "Ihre Nachricht wurde erfolgreich gesendet!",
+      "Failure": "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+      "ValidationUnavailable": "E-Mail-Validierungsdienst nicht verfügbar."
+    },
+    "contacts": {
+      "contact": "Kontakt",
+      "Us": "Uns",
+      "Subtitle": "Kontaktieren Sie uns und buchen Sie eine",
+      "highlight": "Demo noch heute!",
+      "directContacts": "Direkte Kontakte",
+      "callSchedule": "Anrufen oder Videokonferenz planen",
+      "support": "Support",
+      "sales": "Vertrieb",
+      "consult": "Beratung mit einem Experten",
+      "consultSubtext": "Analyse Ihrer Anforderungen & Demo",
+      "customDev": "Anpassungen anfragen",
+      "customDevSubtext": "Entwickler kontaktieren?",
+      "supportRequests": "Support-Anfragen",
+      "supportSubtext": "Fragen? Brauchen Sie Hilfe?",
+      "visitUs": "Besuchen Sie uns",
+      "address": "#306, 2. Etage, NSIC Software Technology Business Park, B-24, Guindy Industrial Estate, Ekkatuthangal, Chennai-600032, Indien",
+      "callUs": "Rufen Sie uns an",
+      "emailUs": "Schreiben Sie uns",
+      "Mobile": "Mobil"
+    }
+  },
+
+  "Footer": {
+    "contactUs": "Kontaktieren Sie uns",
+    "address": "#306, 2. Etage, NSIC Software Technology Business Park, B-24, Guindy Industrial Estate, Ekkatuthangal, Chennai-600032, Indien",
+    "links": {
+      "company": "Unternehmen",
+      "help": "Hilfe",
+      "customerSupport": "Kundensupport",
+      "blogs": "Blogs",
+      "terms": "Allgemeine Geschäftsbedingungen",
+      "privacy": "Datenschutzrichtlinie",
+      "about": "Über uns",
+      "products": "Produkte",
+      "productEnquiry": "Produktanfrage",
+      "bookDemo": "Demo buchen"
+    },
+    "copyright": "© Copyright 2025, Alle Rechte vorbehalten von "
+  },
+
+  "products": {
+    "Title": "Unsere Produkte",
+    "Subtitle": "Optimieren Sie Ihr Geschäft für schnellere und reibungslosere Abläufe",
+    "Categories": "Kategorien",
+    "Loading": "Produkte werden geladen",
+    "Nofound": "Keine Produkte gefunden",
+    "LearnMore": "Mehr erfahren",
+    "Demobutton": "Demo buchen",
+    "TryButton": "Jetzt ausprobieren",
+    "WhyChoose": "Warum wählen",
+    "WhoNeed": "Wer braucht es",
+    "ProductImages": "Produktbilder",
+    "Customers": "Was unsere Kunden sagen",
+    "plans": "Unsere Produktpläne",
+    "all": "Alle"
+  },
+
+  "Unauthorized": {
+    "Title": "Nicht autorisiert",
+    "para": "Entschuldigung, Sie haben keinen Zugriff auf diese Seite. Sie ist nur für",
+    "highlight": "Administratoren",
+    "button": "Zur Startseite"
+  }
+}

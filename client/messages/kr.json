@@ -1,0 +1,191 @@
+{
+  "Menu": {
+    "CMSTooltip": "스마트하고 간단하며 매끄러운 교정, 손쉽게",
+    "CRMTooltip": "고객을 이해하고 비즈니스를 성장시킵니다.",
+    "PPAPTooltip": "품질을 보장합니다 — 모든 부품, 매번.",
+    "ProjectTooltip": "프로젝트를 단순화하고 팀을 강화하세요."
+  },
+  "Header": {
+    "Product": "제품",
+    "Enquiry": "제품 문의",
+    "Contact": "문의하기",
+    "About": "회사 소개",
+    "Dashboard": "대시보드",
+    "Login": "로그인",
+    "Logout": "로그아웃",
+    "Allproducts": "모든 제품"
+  },
+  "Hero": {
+    "Title": "훌륭한 제품은",
+    "highlight": "훌륭한 팀에 의해 만들어집니다",
+    "Description": "첨단 ERP 솔루션, Industry 4.0 혁신 및 클라우드 기반 관리 시스템으로 비즈니스를 최적화하세요. 자동차, 항공우주에서 제조 및 무역까지, 업계에 맞춤화된 스마트하고 확장 가능하며 안전한 소프트웨어를 제공합니다.",
+    "button": {
+      "Contact": "문의하기",
+      "readmore": "더 읽기",
+      "Viewall": "모든 제품 보기",
+      "BookDemo": "데모 예약",
+      "OurClients": "고객사"
+    },
+    "WhoWe": {
+      "Title": "우리를 소개합니다",
+      "Description": "2001년에 설립된 회사로, 첸나이에 본사와 R&D 센터가 있습니다. 제조업 경험이 풍부한 전문가들에 의해 창립되었습니다. ASSPL 경영진은 ERP 시스템, Industry 4.0 및 IIoT 솔루션, SaaS 제품의 설계 및 실현에 있어 강력한 경험을 보유하고 있습니다."
+    },
+    "count": {
+      "clients": "고객",
+      "years": "년",
+      "projects": "프로젝트"
+    },
+    "product": {
+      "Title": "제품 소개",
+      "cmspara1": "클라우드 기반의 포괄적이고 효율적이며 사용하기 쉬운 교정 관리 시스템으로 측정 장비의 교정 요구를 관리합니다.",
+      "cmspara2": "측정 장비의 교정은 제조업에서 품질과 신뢰성을 보장하기 위한 중요한 절차입니다.",
+      "pmspara1": "현장 생산 활동의 계획, 실행, 모니터링, 제어 및 시정 조치를 실시간으로 지원합니다.",
+      "pmspara2": "ACE 생산 관리 시스템은 적시에 적절한 비용으로 고품질 제품을 제공하는 것을 목표로 합니다."
+    },
+    "DemoCard": {
+      "Title": "비즈니스를 혁신할 준비가 되셨나요?",
+      "para": "맞춤형 데모를 예약하여 당사의 솔루션이 특정 과제를 어떻게 해결하고 비즈니스 성장을 촉진할 수 있는지 확인해 보세요."
+    }
+  },
+  "About": {
+    "Title": "회사 소개",
+    "Description": "2001년 설립, 첸나이 본사 및 R&D 센터 운영, 제조 분야 풍부한 경험의 전문가들에 의해 설립.",
+    "para": "ASSPL 경영진은 다음 분야에 전문성을 갖추고 있습니다:",
+    "highlight": "ERP 시스템, Industry 4.0 및 IIoT 솔루션, SaaS 모델 제품",
+    "para1": "중소기업에서 대기업에 이르기까지 다양한 규모의 기업에 제공합니다.",
+    "para2": "자동차, 항공우주, 주조, 가죽 및 프로젝트 관리 등 여러 산업에서 활동하며 ISO, TS, 환경 품질 인증 기준을 이해하고 대기업의 인증 획득을 지원한 경험이 있습니다.",
+    "para3": "산업 표준 및 인증에 대한 깊은 이해를 바탕으로 경쟁 우위를 확보하고 있습니다.",
+    "para4": "개발팀은 중소기업을 위한 신속한 패키지 솔루션부터 대기업을 위한 맞춤형 솔루션을 제공할 수 있습니다.",
+    "Vision": "비전",
+    "VisionPara": "모든 규모의 기업에 IIoT, Industry 4.0 및 SaaS 제품을 제공하여 항상 기대를 뛰어넘습니다.",
+    "Mission": "미션",
+    "MissionPara": "세계 최고의 기술 제품과 SaaS 솔루션을 제공하여 기업의 성공을 돕습니다.",
+    "Values": "가치",
+    "ValuesPara": "우리는 고객 요구에 부응하고, 책임을 다하며, 기한을 준수하고, 탁월함, 안정, 성장에 주력합니다.",
+    "WhyChoose": {
+      "Title": "우리를 선택해야 하는 이유",
+      "Subtitle": "협업해야 할 6가지 이유",
+      "Point1": "엔지니어링 소프트웨어 전문가",
+      "dec1": "2001년부터 귀사에 맞는 혁신적인 엔지니어링 솔루션과 맞춤형 소프트웨어를 개발해 왔습니다.",
+      "Point2": "숙련된 전문 팀",
+      "dec2": "자동화, 기업용 소프트웨어 및 엔지니어링 솔루션 분야 전문성 보유.",
+      "Point3": "신속하고 신뢰할 수 있는 지원",
+      "dec3": "다운타임을 최소화하는 즉각적인 지원 제공.",
+      "Point4": "전 세계의 신뢰",
+      "dec4": "품질, 신뢰성 및 장기적인 파트너십에 중점을 둔 20년 이상의 경험.",
+      "Point5": "맞춤형 소프트웨어",
+      "dec5": "엔지니어링 도구에서 CRM 및 PPAP에 이르기까지 귀사의 니즈에 맞게 설계.",
+      "Point6": "간편하고 직관적인 기술",
+      "dec6": "복잡한 기술을 쉽게 사용하고 워크플로에 자연스럽게 통합합니다."
+    },
+    "Team": {
+      "Title": "리더십 팀",
+      "name1": "R Rajagopalan",
+      "position1": "회장",
+      "dec1": "자동차 업계에서 35년 이상의 경험, 산업 공학, 생산 계획, 현장 시스템 및 자재 관리 분야 전문성 보유.",
+      "name2": "S Rajasekaran",
+      "position2": "상무 이사",
+      "dec2": "자재 관리, 시스템 설계 및 재무 분야에서 30년 이상의 경험, ASSPL 설립자 및 CEO.",
+      "name3": "R Abilash Chakaravarth",
+      "position3": "이사",
+      "dec3": "제품 설계 및 개발 경력 8년 이상, 다수의 특허 보유, ASSPL CEO.",
+      "name4": "R Abishek Karthik",
+      "position4": "이사",
+      "dec4": "기계공학 학사 및 BITS Pilani MBA, 제조 분야 5년 경력, 신제품 개발 전문성 보유.",
+      "name5": "S Anandh",
+      "position5": "기술 책임자",
+      "dec5": "ERP 시스템 아키텍처 분야 20년 이상 경력, 확장 가능하고 안전한 시스템 설계로 프로세스 효율성과 비즈니스 성장을 추진."
+    }
+  },
+  "ProductEnquiry": {
+    "Title": "제품 문의",
+    "ContactTitle": "문의하기",
+    "Subtitle": "지금 바로 문의하시고 데모를 예약하세요!",
+    "code": "KR",
+    "Form": {
+      "Name": "이름",
+      "NamePlaceholder": "이름을 입력하세요",
+      "Company": "회사명",
+      "CompanyPlaceholder": "회사명을 입력하세요",
+      "Email": "사업용 이메일",
+      "EmailPlaceholder": "이메일을 입력하세요",
+      "Mobile": "휴대폰 번호",
+      "Location": "귀하의 지역",
+      "LocationPlaceholder": "지역을 입력하세요",
+      "Product": "관심 제품",
+      "ProductPlaceholder": "제품명을 입력하세요",
+      "Queries": "문의 내용",
+      "QueriesPlaceholder": "문의 내용을 입력하세요",
+      "Submit": "제출",
+      "Submitting": "제출 중…",
+      "EmailError": "유효한 이메일 주소를 입력해주세요.",
+      "PhoneError": "유효한 전화번호를 입력해주세요.",
+      "CheckboxError": "최소 하나의 제품을 선택해주세요."
+    },
+    "Messages": {
+      "Success": "메시지가 성공적으로 전송되었습니다!",
+      "Failure": "전송 중 문제가 발생했습니다. 나중에 다시 시도해주세요.",
+      "ValidationUnavailable": "이메일 유효성 검사 서비스를 사용할 수 없습니다."
+    },
+    "contacts": {
+      "contact": "연락처",
+      "Us": "",
+      "Subtitle": "문의 및 데모 예약",
+      "highlight": "오늘의 데모!",
+      "directContacts": "직통 연락처",
+      "callSchedule": "전화 또는 화상 회의 예약",
+      "support": "지원",
+      "sales": "영업",
+      "consult": "전문가 상담",
+      "consultSubtext": "요구 사항 분석 및 데모 제공",
+      "customDev": "맞춤 개발 요청",
+      "customDevSubtext": "개발자와 연락하시겠습니까?",
+      "supportRequests": "지원 요청",
+      "supportSubtext": "질문이 있으신가요? 도움이 필요하신가요?",
+      "visitUs": "방문 환영",
+      "address": "인도 첸나이‑600032, NSIC‑STP‑B‑24, Guindy Industrial Estate, 306호 2층",
+      "callUs": "전화주세요",
+      "emailUs": "이메일 보내기",
+      "Mobile": "휴대폰"
+    }
+  },
+  "Footer": {
+    "contactUs": "문의하기",
+    "address": "인도 첸나이‑600032, NSIC‑STP‑B‑24, Guindy Industrial Estate, 306호 2층",
+    "links": {
+      "company": "회사 소개",
+      "help": "도움말",
+      "customerSupport": "고객 지원",
+      "blogs": "블로그",
+      "terms": "이용 약관",
+      "privacy": "개인정보 처리방침",
+      "about": "회사 정보",
+      "products": "제품",
+      "productEnquiry": "제품 문의",
+      "bookDemo": "데모 예약"
+    },
+    "copyright": "© 2025 All Rights Reserved"
+  },
+  "products": {
+    "Title": "제품",
+    "Subtitle": "더 빠르고 원활한 운영을 위한 비즈니스 최적화",
+    "Categories": "카테고리",
+    "Loading": "제품 불러오는 중",
+    "Nofound": "제품을 찾을 수 없음",
+    "LearnMore": "자세히 보기",
+    "Demobutton": "데모 예약",
+    "TryButton": "지금 체험하기",
+    "WhyChoose": "선택 이유",
+    "WhoNeed": "누가 필요로 하나요",
+    "ProductImages": "제품 이미지",
+    "Customers": "고객 후기",
+    "plans": "제품 계획",
+    "all": "전체"
+  },
+  "Unauthorized": {
+    "Title": "권한 없음",
+    "para": "죄송합니다. 이 페이지에 대한 액세스 권한이 없습니다. 관리자 전용입니다.",
+    "highlight": "관리자만",
+    "button": "홈으로 돌아가기"
+  }
+}

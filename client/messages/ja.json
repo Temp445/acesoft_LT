@@ -1,0 +1,191 @@
+{
+  "Menu": {
+    "CMSTooltip": "スマートでシンプル、シームレスな校正を簡単に",
+    "CRMTooltip": "顧客を知り、ビジネスを成長させる。",
+    "PPAPTooltip": "品質を保証、すべての部品をすべての時に。",
+    "ProjectTooltip": "プロジェクトを簡素化し、チームを強化。"
+  },
+  "Header": {
+    "Product": "製品",
+    "Enquiry": "製品問い合わせ",
+    "Contact": "お問い合わせ",
+    "About": "会社情報",
+    "Dashboard": "ダッシュボード",
+    "Login": "ログイン",
+    "Logout": "ログアウト",
+    "Allproducts": "すべての製品"
+  },
+  "Hero": {
+    "Title": "素晴らしい製品は",
+    "highlight": "優れたチームによって作られる",
+    "Description": "高度なERPソリューション、Industry 4.0 イノベーション、クラウドベースの管理システムでビジネスを最適化します。自動車、航空宇宙、製造、貿易まで、業界に合わせたスマートで拡張可能、安全なソフトウェアを提供します。",
+    "button": {
+      "Contact": "お問い合わせ",
+      "readmore": "続きを読む",
+      "Viewall": "すべての製品を見る",
+      "BookDemo": "デモを予約する",
+      "OurClients": "お客様"
+    },
+    "WhoWe": {
+      "Title": "私たちについて",
+      "Description": "2001年設立、チェンナイに本社とR＆Dセンターを持つ企業です。製造業界の豊富な経験を持つ専門家によって創業されました。ASSPLの経営陣はERP、Industry 4.0・IIoT、SAAS製品の設計・実装に実績を持っています。"
+    },
+    "count": {
+      "clients": "顧客",
+      "years": "年",
+      "projects": "プロジェクト"
+    },
+    "product": {
+      "Title": "製品一覧",
+      "cmspara1": "クラウド上で包括的かつ効率的でユーザーフレンドリーな校正管理システム。",
+      "cmspara2": "測定器の校正は品質と信頼性を確保するために不可欠です。",
+      "pmspara1": "生産の計画、監視、制御をリアルタイムでサポート。",
+      "pmspara2": "高品質・適切数量・適時提供を目指す生産管理システムです。"
+    },
+    "DemoCard": {
+      "Title": "ビジネスを変革する準備はできていますか？",
+      "para": "課題に合わせたデモを予約して、成長への道筋をご覧ください。"
+    }
+  },
+  "About": {
+    "Title": "会社情報",
+    "Description": "2001年設立、チェンナイ本社・R＆Dセンターを持つ企業。",
+    "para": "ASSPL経営陣は以下の分野に経験があります：",
+    "highlight": "ERPシステム、Industry 4.0＆IIoT、SAASモデル製品",
+    "para1": "中小企業から大企業まで提供。",
+    "para2": "自動車、航空宇宙、鋳造、皮革、プロジェクト管理を専門としており、ISO・TS・環境認証取得を支援。",
+    "para3": "豊富な産業知識と認証ノウハウを持ち、競争力を強化。",
+    "para4": "迅速に導入できるパッケージから大企業向けのカスタム開発まで対応。",
+    "Vision": "私たちのビジョン",
+    "VisionPara": "あらゆる規模の企業にIIoT・Industry 4.0・SaaS製品を提供し、期待を超える。",
+    "Mission": "私たちのミッション",
+    "MissionPara": "世界最高の技術製品とSaaSソリューションで企業の成長を支援。",
+    "Values": "私たちの価値観",
+    "ValuesPara": "顧客ニーズに応え、責任を持ち、期限を守り、卓越性と成長を追求します。",
+    "WhyChoose": {
+      "Title": "選ばれる理由",
+      "Subtitle": "私たちとパートナーになる6つの理由",
+      "Point1": "エンジニアリングソフトの専門家",
+      "dec1": "2001年以降、企業向けに設計されたソリューションを提供。",
+      "Point2": "高度な専門スキル保有チーム",
+      "dec2": "自動化、エンタープライズソフト、エンジニアリングに精通。",
+      "Point3": "迅速で信頼できるサポート",
+      "dec3": "停止時間を最小限に抑える体制。",
+      "Point4": "グローバルな信頼",
+      "dec4": "品質、信頼性、長期的パートナーを重視。",
+      "Point5": "ニーズに合わせたソフトウェア",
+      "dec5": "CRMやPPAPなど業務にピッタリの設計。",
+      "Point6": "直感的で簡単な技術",
+      "dec6": "複雑さを解消し、業務に溶け込むシステム。"
+    },
+    "Team": {
+      "Title": "リーダーシップチーム",
+      "name1": "R Rajagopalan",
+      "position1": "会長",
+      "dec1": "自動車業界で35年以上、工業エンジニアリング・生産計画の経験。",
+      "name2": "S Rajasekaran",
+      "position2": "マネージングディレクター",
+      "dec2": "30年以上の材料管理・システム設計・財務の経験。",
+      "name3": "R Abilash Chakaravarth",
+      "position3": "取締役",
+      "dec3": "8年以上の製品開発経験、複数の特許保有。",
+      "name4": "R Abishek Karthik",
+      "position4": "取締役",
+      "dec4": "機械工学とMBA取得、5年の製造経験。",
+      "name5": "S Anandh",
+      "position5": "テクニカルヘッド",
+      "dec5": "20年以上のERP設計経験と技術的リーダーシップ。"
+    }
+  },
+  "ProductEnquiry": {
+    "Title": "製品お問い合わせ",
+    "ContactTitle": "お問い合わせ",
+    "Subtitle": "今すぐお問い合わせ＆デモを予約！",
+    "code": "JP",
+    "Form": {
+      "Name": "お名前",
+      "NamePlaceholder": "お名前を入力してください",
+      "Company": "会社名",
+      "CompanyPlaceholder": "会社名を入力してください",
+      "Email": "メールアドレス",
+      "EmailPlaceholder": "メールアドレスを入力してください",
+      "Mobile": "携帯番号",
+      "Location": "所在地",
+      "LocationPlaceholder": "所在地を入力してください",
+      "Product": "興味のある製品",
+      "ProductPlaceholder": "製品名を入力してください",
+      "Queries": "お問い合わせ内容",
+      "QueriesPlaceholder": "内容を入力してください",
+      "Submit": "送信",
+      "Submitting": "送信中…",
+      "EmailError": "有効なメールアドレスを入力してください。",
+      "PhoneError": "有効な電話番号を入力してください。",
+      "CheckboxError": "少なくとも1つの製品を選択してください。"
+    },
+    "Messages": {
+      "Success": "ご送信ありがとうございました！",
+      "Failure": "送信に失敗しました。後ほど再度お試しください。",
+      "ValidationUnavailable": "メール検証サービスが利用できません。"
+    },
+    "contacts": {
+      "contact": "お問い合わせ",
+      "Us": "",
+      "Subtitle": "お問い合わせ＆",
+      "highlight": "本日のデモを予約！",
+      "directContacts": "直通連絡先",
+      "callSchedule": "電話またはビデオ会議を予約",
+      "support": "サポート",
+      "sales": "営業",
+      "consult": "専門家に相談",
+      "consultSubtext": "ニーズを分析し、デモを提供",
+      "customDev": "カスタム開発を依頼",
+      "customDevSubtext": "開発者に連絡しますか？",
+      "supportRequests": "サポートリクエスト",
+      "supportSubtext": "質問がありますか？ヘルプが必要ですか？",
+      "visitUs": "ご来訪ください",
+      "address": "インド、チェンナイ‑600032、NSIC‑STP‑B‑24、Guindy Industrial Estate、#306, 2階",
+      "callUs": "お電話ください",
+      "emailUs": "メールを送る",
+      "Mobile": "携帯"
+    }
+  },
+  "Footer": {
+    "contactUs": "お問い合わせ",
+    "address": "インド、チェンナイ‑600032、NSIC‑STP‑B‑24、Guindy Industrial Estate、#306, 2階",
+    "links": {
+      "company": "会社情報",
+      "help": "ヘルプ",
+      "customerSupport": "カスタマーサポート",
+      "blogs": "ブログ",
+      "terms": "利用規約",
+      "privacy": "プライバシーポリシー",
+      "about": "会社概要",
+      "products": "製品",
+      "productEnquiry": "製品お問い合わせ",
+      "bookDemo": "デモを予約"
+    },
+    "copyright": "© 2025 All Rights Reserved"
+  },
+  "products": {
+    "Title": "製品一覧",
+    "Subtitle": "迅速かつスムーズな運用のためにビジネスを最適化",
+    "Categories": "カテゴリ",
+    "Loading": "製品読み込み中",
+    "Nofound": "製品が見つかりません",
+    "LearnMore": "詳細を見る",
+    "Demobutton": "デモ予約",
+    "TryButton": "今すぐ試す",
+    "WhyChoose": "選ばれる理由",
+    "WhoNeed": "誰に必要か",
+    "ProductImages": "製品画像",
+    "Customers": "お客様の声",
+    "plans": "製品プラン",
+    "all": "すべて"
+  },
+  "Unauthorized": {
+    "Title": "アクセス権がありません",
+    "para": "申し訳ありません。このページは",
+    "highlight": "管理者専用です",
+    "button": "ホームへ戻る"
+  }
+}

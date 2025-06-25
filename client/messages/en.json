@@ -1,0 +1,205 @@
+{
+
+    "Menu":{
+    "CMSTooltip": " Smart, simple, and seamless — calibration made easy ",
+    "CRMTooltip": "Know Your Customer. Grow Your Business.",
+    "PPAPTooltip": "Ensuring Quality, Every Part, Every Time.",
+    "ProjectTooltip": "Simplify Projects. Empower Teams."
+  },
+
+"Header": {
+  "Product": "Products",
+  "Enquiry": "Product Enquiry",
+  "Contact": "Contact Us",
+  "About": "About Us",
+  "Dashboard": "Dashboard",
+  "Login": "Login",
+  "Logout": "Logout",
+  "Allproducts": "All Products"
+  },
+
+
+
+  "Hero": {
+    "Title": "Great Product is built",
+    "highlight": "by great teams",
+    "Description": "Optimize your business with advanced ERP solutions, Industry 4.0 innovations, and cloud-based management systems. From automotive and aerospace to manufacturing and trading, we deliver smart, scalable, and secure software tailored to your industry's needs.",
+    "button":{
+      "Contact": "Contact Us",
+      "readmore": "Read more",
+      "Viewall": "View all products",
+      "BookDemo": "Book A Demo Now",
+      "OurClients": "Our Clients"
+    },
+    "WhoWe":{
+      "Title": "Who We Are",
+      "Description": "a company incorporated in 2001, has its Head Office and its Research & Development center in Chennai. The company was started by professionals having rich experience in the Manufacturing sector. The ASSPL Management Team has hands on experience in designing and implementation of ERP systems, Industry 4.0 & IIOT Solutions and SAAS model products for small, medium and large industries and corporate."
+    },
+    "count":{
+     "clients": "Clients",
+     "years": "Years",
+     "projects": "Projects"
+    },
+    "product":{
+      "Title": "Our Products",
+      "cmspara1": " on Cloud – a comprehensive, efficient and user-friendly Calibration Management System helps to manage your Gauges & Instruments calibration needs.",
+      "cmspara2":"Calibration of gauges and instruments is one of the vital processes for any manufacturing industry to produce a quality and reliable product to satisfy customer needs.",
+      "pmspara1": "assists in planning, producing, monitoring, and controlling, including corrective actions of production activities in Real Time / Online on the shop floor.",
+      "pmspara2": "The main objective of Ace Production Management System is to produce good quality and right quantity product at the right time cost effectively."
+    },
+    "DemoCard":{
+      "Title": "Ready to Transform Your Business?",
+      "para": "Schedule a personalized demo to see how our solutions can address your specific challenges and drive growth for your business"
+    }
+  },
+
+  "About":{
+    "Title": "About Us",
+    "Description": " a company incorporated in 2001, has its Head Office and its Research & Development center in Chennai. The company was started by professionals having rich experience in the Manufacturing sector.",
+    "para": "The ASSPL Management Team has hands on experience in designing and implementation of ",
+    "highlight": " ERP systems, Industry 4.0 & IIOT Solutions and SAAS model products",
+    "para1": "for small, medium and large industries and corporate.",
+    "para2": "Further the ASSPL Management Team possess functional expertise and process knowledge of various segments of industry like Automotive, Aerospace, Foundry, Leather and Project Management. The ASSPL Management Team has an edge over the others in understanding the industry requirements towards various Quality system accreditations, the client has to comply, since they were also instrumental in getting accreditations (ISO, TS and Environmental) done for large industrial houses.",
+    "para3": " The ASSPL Management Team has expertise in Automotive, Aerospace, Foundry, Leather, and Project Management industries. Their deep understanding of quality system accreditations like ISO, TS, and Environmental standards gives them a competitive edge, having successfully guided large industries in achieving these certifications.",
+    "para4": "The Development team is highly capable of providing a readymade solution to small and medium industries in quick time, at the same time taking care of providing tailor made solutions to suit the requirements of large industries.",
+    "Vision":"Our Vision",
+    "VisionPara":"To reach, connect and provide Technology Products – IIOT – Industry 4.0 solution and SAAS Model Products to the industry and corporate segments of all sizes that always strive to exceed their expectations.",
+    "Mission": "Our Mission",
+    "MissionPara": "Provide the world's best Technology Products and SAAS Model solutions that enable businesses to excel.",
+    "Values":"Our Values",
+    "ValuesPara": "We provide solutions that meet customer needs, take responsibility for our work, deliver on time, and strive for excellence, stability, and growth.",
+    "WhyChoose":{
+      "Title": "Why Choose Us",
+      "Subtitle": "6 Reasons To Partner With ",
+      "Point1": "Experts in Engineering Software",
+      "dec1": "Since 2001, we've been building cutting-edge engineering and custom software solutions tailored for businesses like yours.",
+      "Point2": "Highly Skilled & Experienced Team",
+      "dec2":"Our experts specialize in automation, enterprise software, and engineering solutions, delivering reliable and efficient results.",
+      "Point3":"Fast & Dependable Support",
+      "dec3":"We provide timely assistance to minimize downtime and keep your operations running smoothly—no unnecessary delays.",
+      "Point4": "Trusted by Businesses Worldwide",
+      "dec4":"With over two decades of experience, we focus on quality, reliability, and long-term partnerships to ensure your success.",
+      "Point5": "Tailored Software for Your Needs",
+      "dec5":"From engineering tools to enterprise solutions like CRM and PPAP, we design software that perfectly fits your business.",
+      "Point6": "Simplified, User-Friendly Technology",
+      "dec6":"We make complex technology easy to use, delivering intuitive solutions that integrate seamlessly into your workflow."
+    },
+    "Team":{
+      "Title": "Our Leadership Team",
+      "name1": "R Rajagopalan",
+      "position1":"Chairman of ",
+      "dec1":"With over 35 years of experience in the automobile industry, specializing in Industrial Engineering, Production Planning, Shop Floor Systems, and Materials Management, he provides strategic inputs for the organizational growth of ASSPL.",
+      "name2": "S Rajasekaran",
+      "position2":"Managing Director of ",
+      "dec2":"With over 30 years' experience in Materials Management & System Design and Finance, he is also the Founder & CEO of ASSPL, who leads the day-to-day functions on a strategic level with his domain expertise.",
+      "name3": "R Abilash Chakaravarth",
+      "position3":"Board of Directors of ",
+      "dec3":"With more than 8 years of experience in product design and product development , he holds several patterns and research papers in the field of engineering, he is CEO of ASSPL providing key insights to achieve and propel the organisation.",
+      "name4": "R Abishek Karthik",
+      "position4":"Board of Directors of ",
+      "dec4":"A Young Mechanical Engineering Graduate from Anna University and MBA in BITS Pilani with 5 years of experience in manufacturing sector provides functional and domain expertise on new product developments.",
+      "name5": "S Anandh",
+      "position5":"Technical Head of ",
+      "dec5":"With 20+ years of expertise, the lead architect designs scalable and secure ERP systems for ACE Profit, optimizing processes, enhancing efficiency, and driving business growth."
+    }
+
+  },
+
+   "ProductEnquiry": {
+  "Title": "Product Enquiry ",
+  "ContactTitle": "Contact Us",
+  "Subtitle": "Connect with us and Book a Demo today!",
+  "code": "IN",
+  "Form": {
+    "Name": "Name",
+    "NamePlaceholder": "Enter your name",
+    "Company": "Company Name",
+    "CompanyPlaceholder": "Enter your company name",
+    "Email": "Business Email",
+    "EmailPlaceholder": "Enter your email",
+    "Mobile": "Mobile Number",
+    "Location": "Your Location",
+    "LocationPlaceholder": "Enter your location",
+    "Product": "Product Interested",
+    "ProductPlaceholder": "Enter the Product Name",
+    "Queries": "Queries",
+    "QueriesPlaceholder": "Enter your queries",
+    "Submit": "Submit",
+    "Submitting": "Submitting...",
+    "EmailError": "Please enter a valid email address.",
+    "PhoneError": "Please enter a valid phone number.",
+    "CheckboxError":"Please select at least one product."
+  },
+
+  "Messages": {
+    "Success": "Your message has been sent successfully!",
+    "Failure": "There was an issue sending your message. Please try again later.",
+    "ValidationUnavailable": "Email validation service unavailable."
+  },
+
+    "contacts": {
+      "contact": "Contact",
+      "Us": "Us",
+    "Subtitle": "Connect with us and Book a",
+    "highlight" : "Demo today!",
+    "directContacts": "Direct Contacts",
+    "callSchedule": "Call or Schedule a video conference",
+    "support": "Support",
+    "sales": "Sales",
+    "consult": "Consult with an expert",
+    "consultSubtext": "To analyze your needs & provide a demo",
+    "customDev": "Request Custom Developments",
+    "customDevSubtext": "Need to get in touch with developers?",
+    "supportRequests": "Support Requests",
+    "supportSubtext": "Have a question? Need assistance?",
+    "visitUs": "Visit Us",
+    "address": "#306, 2nd Floor, NSIC-Software Technology Business Park, B-24, Guindy Industrial Estate, Ekkatuthangal, Chennai-600032, India",
+     "callUs": "Call Us",
+    "emailUs": "Email Us",
+    "Mobile": "Mobile"
+  }
+},
+
+"Footer":{
+  "contactUs": "Contact Us",
+  "address": "#306, 2nd Floor, NSIC-Software Technology Business Park, B-24, Guindy Industrial Estate, Ekkatuthangal, Chennai-600032, India",
+  "links": {
+     "company": "Company",
+    "help": "Help",
+    "customerSupport": "Customer Support",
+    "blogs": "Blogs",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "about": "About",
+    "products": "Products",
+    "productEnquiry": "Product Enquiry",
+    "bookDemo": "Book A Demo"
+  },
+  "copyright": "© Copyright 2025, All Rights Reserved by "
+},
+
+"products":{
+  "Title": "Our Products",
+  "Subtitle": "Optimize your business for faster and smoother operations",
+  "Categories": "Categories",
+  "Loading": "Loading products",
+  "Nofound": "No products found",
+  "LearnMore": "Learn More",
+  "Demobutton": "Book A Demo",
+  "TryButton": "Try Now",
+  "WhyChoose": "Why Choose",
+  "WhoNeed": "Who Needs",
+  "ProductImages": "Product Images",
+  "Customers": "What Our Customers Say",
+  "plans": " Our Product Plans",
+  "all": "All"
+},
+
+"Unauthorized":{
+  "Title": "Unauthorized",
+  "para": "Sorry, you don’t have access to this page. It’s reserved for",
+  "highlight": "admins only",
+  "button": "Go to Home"
+}
+
+}

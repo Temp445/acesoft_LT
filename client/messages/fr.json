@@ -1,0 +1,191 @@
+{
+  "Menu": {
+    "CMSTooltip": "Intelligent, simple et fluide – étalonnage simplifié",
+    "CRMTooltip": "Connaissez vos clients. Développez votre activité.",
+    "PPAPTooltip": "Assurer la qualité, chaque pièce, à chaque fois.",
+    "ProjectTooltip": "Simplifiez les projets. Dynamisez les équipes."
+  },
+  "Header": {
+    "Product": "Produits",
+    "Enquiry": "Demande de produit",
+    "Contact": "Contactez-nous",
+    "About": "À propos",
+    "Dashboard": "Tableau de bord",
+    "Login": "Connexion",
+    "Logout": "Déconnexion",
+    "Allproducts": "Tous les produits"
+  },
+  "Hero": {
+    "Title": "Un grand produit se construit",
+    "highlight": "par des équipes exceptionnelles",
+    "Description": "Optimisez votre activité avec des solutions ERP avancées, des innovations Industrie 4.0 et des systèmes de gestion cloud. De l’automobile à l’aérospatiale, en passant par la fabrication et le commerce, nous fournissons des logiciels intelligents, évolutifs et sécurisés adaptés à votre secteur.",
+    "button": {
+      "Contact": "Contactez-nous",
+      "readmore": "En savoir plus",
+      "Viewall": "Voir tous les produits",
+      "BookDemo": "Réserver une démo",
+      "OurClients": "Nos clients"
+    },
+    "WhoWe": {
+      "Title": "Qui nous sommes",
+      "Description": "une société créée en 2001, avec son siège et son centre R&D à Chennai. Fondée par des professionnels expérimentés dans l’industrie manufacturière. L’équipe ASSPL possède une solide expérience dans la conception et la mise en œuvre de systèmes ERP, solutions IIoT et I4.0, ainsi que de produits SaaS pour tous types d’entreprises."
+    },
+    "count": {
+      "clients": "Clients",
+      "years": "Années",
+      "projects": "Projets"
+    },
+    "product": {
+      "Title": "Nos produits",
+      "cmspara1": "sur le cloud – un système de gestion de calibration complet, efficace et convivial pour gérer vos instruments et gabarits.",
+      "cmspara2": "La calibration des instruments est un processus essentiel pour toute industrie manufacturière désirant garantir des produits fiables et de qualité.",
+      "pmspara1": "assiste la planification, production, suivi et contrôle, y compris les actions correctives en temps réel sur l’atelier.",
+      "pmspara2": "Le but du Production Management System est de fournir un produit de qualité et en quantité correcte, au bon moment, de manière rentable."
+    },
+    "DemoCard": {
+      "Title": "Prêt à transformer votre entreprise ?",
+      "para": "Planifiez une démo personnalisée pour voir comment nos solutions peuvent résoudre vos défis spécifiques et stimuler votre croissance."
+    }
+  },
+  "About": {
+    "Title": "À propos de nous",
+    "Description": "une société créée en 2001, avec siège et centre R&D à Chennai. Fondée par des experts de l’industrie manufacturière.",
+    "para": "L’équipe dirigeante d’ASSPL possède une expérience solide dans la conception et la mise en œuvre de",
+    "highlight": " ERP, solutions Industrie 4.0 & IIoT ainsi que produits SaaS",
+    "para1": "pour les PME, ETI et grandes entreprises.",
+    "para2": "L’équipe maîtrise les secteurs automobile, aérospatial, fonderie, cuir et gestion de projets, ainsi que les exigences des systèmes de qualité (ISO, TS, environnement), ayant accompagné de grandes entreprises vers ces certifications.",
+    "para3": "Une expertise avérée dans l’automobile, l’aérospatiale, la fonderie, le cuir et le management de projets, avec une compréhension approfondie des normes ISO, TS et environnementales, constituant un avantage concurrentiel.",
+    "para4": "Notre équipe de développement propose rapidement des solutions prêtes à l’emploi pour les PME, tout en adaptant des solutions sur mesure pour les grandes entreprises.",
+    "Vision": "Notre vision",
+    "VisionPara": "Apporter des produits technologiques – IIoT – Industrie 4.0 et des SaaS à des entreprises de toutes tailles, en dépassant toujours leurs attentes.",
+    "Mission": "Notre mission",
+    "MissionPara": "Fournir les meilleurs produits technologiques et solutions SaaS au monde pour permettre aux entreprises de réussir.",
+    "Values": "Nos valeurs",
+    "ValuesPara": "Nous fournissons des solutions adaptées aux besoins, assumons la responsabilité, respectons les délais et visons l’excellence, la stabilité et la croissance.",
+    "WhyChoose": {
+      "Title": "Pourquoi nous choisir",
+      "Subtitle": "6 raisons de collaborer avec nous",
+      "Point1": "Experts en logiciels d’ingénierie",
+      "dec1": "Depuis 2001, nous développons des solutions de génie et logiciels sur mesure pour des entreprises comme la vôtre.",
+      "Point2": "Équipe expérimentée et qualifiée",
+      "dec2": "Nos experts sont spécialisés en automatisation, logiciels d’entreprise et solutions d’ingénierie.",
+      "Point3": "Support rapide & fiable",
+      "dec3": "Nous apportons un soutien rapide pour minimiser les arrêts et assurer la continuité.",
+      "Point4": "Confiance mondiale",
+      "dec4": "Plus de deux décennies axées sur la qualité, la fiabilité et les partenariats durables.",
+      "Point5": "Logiciel taillé pour vous",
+      "dec5": "Des outils d’ingénierie aux solutions CRM et PPAP – conçus sur mesure.",
+      "Point6": "Technologie simple et intuitive",
+      "dec6": "Nous rendons la technologie complexe facile à utiliser et à intégrer."
+    },
+    "Team": {
+      "Title": "Notre équipe dirigeante",
+      "name1": "R Rajagopalan",
+      "position1": "Président de",
+      "dec1": "Plus de 35 ans d’expérience dans l’industrie automobile, en ingénierie industrielle, planification de production, systèmes atelier et gestion des matériaux.",
+      "name2": "S Rajasekaran",
+      "position2": "Directeur général de",
+      "dec2": "Plus de 30 ans en gestion des matériaux, conception de systèmes et finance – fondateur et PDG d’ASSPL.",
+      "name3": "R Abilash Chakaravarth",
+      "position3": "Directeur du conseil d’administration de",
+      "dec3": "Plus de 8 ans en conception et développement produit. Détenteur de plusieurs brevets, il est PDG d’ASSPL.",
+      "name4": "R Abishek Karthik",
+      "position4": "Directeur du conseil d’administration de",
+      "dec4": "Jeune diplômé en génie mécanique et MBA, 5 ans d’expérience dans l’industrie – expertise en développement produit.",
+      "name5": "S Anandh",
+      "position5": "Responsable technique de",
+      "dec5": "Plus de 20 ans en tant qu’architecte ERP évolutif et sécurisé, optimisant les processus pour la croissance."
+    }
+  },
+  "ProductEnquiry": {
+    "Title": "Demande de produit",
+    "ContactTitle": "Contactez-nous",
+    "Subtitle": "Contactez-nous et réservez une démo dès aujourd’hui !",
+    "code": "FR",
+    "Form": {
+      "Name": "Nom",
+      "NamePlaceholder": "Entrez votre nom",
+      "Company": "Nom de l’entreprise",
+      "CompanyPlaceholder": "Entrez le nom de votre entreprise",
+      "Email": "E‑mail professionnel",
+      "EmailPlaceholder": "Entrez votre e‑mail",
+      "Mobile": "Numéro de mobile",
+      "Location": "Votre localisation",
+      "LocationPlaceholder": "Entrez votre localisation",
+      "Product": "Produit intéressé",
+      "ProductPlaceholder": "Entrez le nom du produit",
+      "Queries": "Questions",
+      "QueriesPlaceholder": "Entrez vos questions",
+      "Submit": "Envoyer",
+      "Submitting": "Envoi…",
+      "EmailError": "Veuillez saisir une adresse e‑mail valide.",
+      "PhoneError": "Veuillez saisir un numéro de téléphone valide.",
+      "CheckboxError": "Veuillez sélectionner au moins un produit."
+    },
+    "Messages": {
+      "Success": "Votre message a été envoyé avec succès !",
+      "Failure": "Un problème est survenu lors de l’envoi. Veuillez réessayer plus tard.",
+      "ValidationUnavailable": "Service de validation d’email indisponible."
+    },
+    "contacts": {
+      "contact": "Contact",
+      "Us": "Nous",
+      "Subtitle": "Contactez-nous et réservez une",
+      "highlight": "démo aujourd’hui !",
+      "directContacts": "Contacts directs",
+      "callSchedule": "Appel ou visioconférence",
+      "support": "Support",
+      "sales": "Ventes",
+      "consult": "Consulter un expert",
+      "consultSubtext": "Analyser vos besoins & proposer une démo",
+      "customDev": "Demande de développement personnalisé",
+      "customDevSubtext": "Besoin d’entrer en contact avec les développeurs ?",
+      "supportRequests": "Demandes de support",
+      "supportSubtext": "Des questions ? Besoin d’aide ?",
+      "visitUs": "Visitez-nous",
+      "address": "#306, 2ᵉ étage, NSIC–STP, B‑24, Guindy Industrial Estate, Ekkatuthangal, Chennai‑600032, Inde",
+      "callUs": "Appelez-nous",
+      "emailUs": "Écrivez-nous",
+      "Mobile": "Mobile"
+    }
+  },
+  "Footer": {
+    "contactUs": "Contactez-nous",
+    "address": "#306, 2ᵉ étage, NSIC–STP, B‑24, Guindy Industrial Estate, Ekkatuthangal, Chennai‑600032, Inde",
+    "links": {
+      "company": "Entreprise",
+      "help": "Aide",
+      "customerSupport": "Support client",
+      "blogs": "Blogs",
+      "terms": "Conditions générales",
+      "privacy": "Politique de confidentialité",
+      "about": "À propos",
+      "products": "Produits",
+      "productEnquiry": "Demande de produit",
+      "bookDemo": "Réserver une démo"
+    },
+    "copyright": "© 2025, Tous droits réservés "
+  },
+  "products": {
+    "Title": "Nos produits",
+    "Subtitle": "Optimisez votre activité pour des opérations plus rapides et fluides",
+    "Categories": "Catégories",
+    "Loading": "Chargement des produits",
+    "Nofound": "Aucun produit trouvé",
+    "LearnMore": "En savoir plus",
+    "Demobutton": "Réserver une démo",
+    "TryButton": "Essayer maintenant",
+    "WhyChoose": "Pourquoi choisir",
+    "WhoNeed": "Qui en a besoin",
+    "ProductImages": "Images produit",
+    "Customers": "Ce que disent nos clients",
+    "plans": "Nos offres produit",
+    "all": "Tous"
+  },
+  "Unauthorized": {
+    "Title": "Non autorisé",
+    "para": "Désolé, vous n’avez pas accès à cette page. Elle est réservée aux",
+    "highlight": "administrateurs",
+    "button": "Aller à l’accueil"
+  }
+}

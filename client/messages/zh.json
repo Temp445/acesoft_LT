@@ -1,0 +1,198 @@
+{
+  "Menu": {
+    "CMSTooltip": "智能、简单、无缝 — 校准变得如此轻松",
+    "CRMTooltip": "了解您的客户，发展您的业务。",
+    "PPAPTooltip": "确保质量，每一个零件，每一次。",
+    "ProjectTooltip": "简化项目，赋能团队。"
+  },
+
+  "Header": {
+    "Product": "产品",
+    "Enquiry": "产品咨询",
+    "Contact": "联系我们",
+    "About": "关于我们",
+    "Dashboard": "仪表盘",
+    "Login": "登录",
+    "Logout": "登出",
+    "Allproducts": "全部产品"
+  },
+
+  "Hero": {
+    "Title": "优秀的产品来自",
+    "highlight": "优秀的团队",
+    "Description": "通过先进的 ERP 解决方案、工业 4.0 创新和基于云的管理系统优化您的业务。从汽车、航空航天到制造和贸易，我们提供智能、可扩展且安全的软件，专为您的行业需求量身定制。",
+    "button": {
+      "Contact": "联系我们",
+      "readmore": "阅读更多",
+      "Viewall": "查看所有产品",
+      "BookDemo": "立即预约演示",
+      "OurClients": "我们的客户"
+    },
+    "WhoWe": {
+      "Title": "我们是谁",
+      "Description": "公司成立于 2001 年，总部及研发中心位于金奈。由在制造行业拥有丰富经验的专业人士创立。ASSPL 管理团队在 ERP 系统、工业 4.0、IIOT 解决方案和 SAAS 模式产品的设计与实施方面具有丰富经验，服务对象涵盖中小大型企业及公司。"
+    },
+    "count": {
+      "clients": "客户",
+      "years": "年",
+      "projects": "项目"
+    },
+    "product": {
+      "Title": "我们的产品",
+      "cmspara1": "云端 — 一套全面、高效、用户友好的校准管理系统，帮助您管理量具和仪器的校准需求。",
+      "cmspara2": "量具和仪器的校准是制造业生产高质量、可靠产品以满足客户需求的重要过程之一。",
+      "pmspara1": "协助生产计划、执行、监控和控制，包括实时/在线的纠正措施管理。",
+      "pmspara2": "Ace 生产管理系统的主要目标是以成本效益高的方式，按时生产出高质量和正确数量的产品。"
+    },
+    "DemoCard": {
+      "Title": "准备好转型您的业务了吗？",
+      "para": "安排个性化演示，了解我们的解决方案如何应对您的具体挑战并推动业务增长。"
+    }
+  },
+
+  "About": {
+    "Title": "关于我们",
+    "Description": "公司成立于 2001 年，总部及研发中心位于金奈，由在制造行业拥有丰富经验的专业人士创立。",
+    "para": "ASSPL 管理团队在以下方面具有丰富经验：",
+    "highlight": "ERP 系统、工业 4.0、IIOT 解决方案和 SAAS 模式产品",
+    "para1": "适用于中小大型企业和公司。",
+    "para2": "此外，ASSPL 管理团队熟悉汽车、航空航天、铸造、皮革和项目管理等多个行业的流程，并在协助大型企业获得 ISO、TS、环保等认证方面具有独特优势。",
+    "para3": "我们深刻理解质量体系认证要求，曾成功帮助多家大型企业完成相关认证。",
+    "para4": "我们的开发团队有能力为中小企业快速提供现成解决方案，同时为大型企业量身打造定制系统。",
+    "Vision": "我们的愿景",
+    "VisionPara": "为各类企业与公司提供 IIOT、工业 4.0 和 SAAS 模式技术产品，力争超越客户期望。",
+    "Mission": "我们的使命",
+    "MissionPara": "提供全球领先的技术产品和 SAAS 模式解决方案，助力企业卓越发展。",
+    "Values": "我们的价值观",
+    "ValuesPara": "我们提供满足客户需求的解决方案，负责我们的工作，按时交付，追求卓越、稳定与成长。",
+    "WhyChoose": {
+      "Title": "为什么选择我们",
+      "Subtitle": "合作的 6 大理由",
+      "Point1": "工程软件专家",
+      "dec1": "自 2001 年以来，我们为企业量身打造前沿工程与定制软件解决方案。",
+      "Point2": "高技能与经验丰富的团队",
+      "dec2": "我们的专家专注于自动化、企业软件和工程解决方案，交付高效可靠成果。",
+      "Point3": "快速可靠的支持",
+      "dec3": "及时响应，尽量减少停机时间，保障您业务连续运行。",
+      "Point4": "全球客户信赖",
+      "dec4": "二十余年经验，我们重视质量、可靠性与长期合作伙伴关系，助您成功。",
+      "Point5": "为您量身定制的软件",
+      "dec5": "从工程工具到 CRM 和 PPAP 等企业解决方案，我们的软件完美契合您的业务需求。",
+      "Point6": "简洁易用的技术",
+      "dec6": "我们简化复杂技术，提供直观的解决方案，轻松融入您的工作流程。"
+    },
+    "Team": {
+      "Title": "我们的领导团队",
+      "name1": "R Rajagopalan",
+      "position1": "董事长",
+      "dec1": "拥有 35 年汽车行业经验，专注工业工程、生产计划、车间系统与物料管理，为 ASSPL 的战略发展提供指导。",
+      "name2": "S Rajasekaran",
+      "position2": "董事总经理",
+      "dec2": "30 年材料管理、系统设计与财务经验，ASSPL 创始人兼 CEO，凭借专业知识领导公司日常运营。",
+      "name3": "R Abilash Chakaravarth",
+      "position3": "董事会成员",
+      "dec3": "拥有 8 年以上产品设计与开发经验，在工程领域拥有多个专利和研究成果，担任 CEO，推动组织发展。",
+      "name4": "R Abishek Karthik",
+      "position4": "董事会成员",
+      "dec4": "毕业于安娜大学机械工程专业，拥有 BITS Pilani 的 MBA 学位，5 年制造业经验，提供新产品开发方面的专业知识。",
+      "name5": "S Anandh",
+      "position5": "技术总监",
+      "dec5": "20 多年经验，系统架构师，设计 ACE Profit 的可扩展、安全 ERP 系统，优化流程，提升效率与增长。"
+    }
+  },
+
+  "ProductEnquiry": {
+    "Title": "产品咨询",
+    "ContactTitle": "联系我们",
+    "Subtitle": "立即联系我们并预约演示！",
+    "code": "CN",
+    "Form": {
+      "Name": "姓名",
+      "NamePlaceholder": "请输入您的姓名",
+      "Company": "公司名称",
+      "CompanyPlaceholder": "请输入您的公司名称",
+      "Email": "商务邮箱",
+      "EmailPlaceholder": "请输入您的邮箱",
+      "Mobile": "手机号码",
+      "Location": "您的位置",
+      "LocationPlaceholder": "请输入您的位置",
+      "Product": "感兴趣的产品",
+      "ProductPlaceholder": "请输入产品名称",
+      "Queries": "问题",
+      "QueriesPlaceholder": "请输入您的问题",
+      "Submit": "提交",
+      "Submitting": "正在提交...",
+      "EmailError": "请输入有效的邮箱地址。",
+      "PhoneError": "请输入有效的手机号码。",
+      "CheckboxError": "请至少选择一个产品。"
+    },
+    "Messages": {
+      "Success": "您的信息已成功发送！",
+      "Failure": "发送信息时出现问题，请稍后重试。",
+      "ValidationUnavailable": "邮箱验证服务不可用。"
+    },
+    "contacts": {
+      "contact": "联系",
+      "Us": "我们",
+      "Subtitle": "联系我们并预约",
+      "highlight": "演示！",
+      "directContacts": "直接联系方式",
+      "callSchedule": "致电或安排视频会议",
+      "support": "技术支持",
+      "sales": "销售咨询",
+      "consult": "咨询专家",
+      "consultSubtext": "分析您的需求并安排演示",
+      "customDev": "请求定制开发",
+      "customDevSubtext": "需要与开发人员联系？",
+      "supportRequests": "技术支持请求",
+      "supportSubtext": "有问题或需要帮助？",
+      "visitUs": "拜访我们",
+      "address": "印度金奈市 Ekkatuthangal，Guindy 工业区，B-24，NSIC 软件科技园，306 室，2 楼，邮编 600032",
+      "callUs": "致电我们",
+      "emailUs": "给我们发邮件",
+      "Mobile": "手机"
+    }
+  },
+
+  "Footer": {
+    "contactUs": "联系我们",
+    "address": "印度金奈市 Ekkatuthangal，Guindy 工业区，B-24，NSIC 软件科技园，306 室，2 楼，邮编 600032",
+    "links": {
+      "company": "公司",
+      "help": "帮助",
+      "customerSupport": "客户支持",
+      "blogs": "博客",
+      "terms": "条款与条件",
+      "privacy": "隐私政策",
+      "about": "关于我们",
+      "products": "产品",
+      "productEnquiry": "产品咨询",
+      "bookDemo": "预约演示"
+    },
+    "copyright": "© 2025 版权所有，保留所有权利 "
+  },
+
+  "products": {
+    "Title": "我们的产品",
+    "Subtitle": "优化您的业务，实现更快速更流畅的运营",
+    "Categories": "分类",
+    "Loading": "加载产品中",
+    "Nofound": "未找到相关产品",
+    "LearnMore": "了解更多",
+    "Demobutton": "预约演示",
+    "TryButton": "立即试用",
+    "WhyChoose": "为什么选择",
+    "WhoNeed": "谁需要",
+    "ProductImages": "产品图片",
+    "Customers": "客户怎么说",
+    "plans": "产品方案",
+    "all": "全部"
+  },
+
+  "Unauthorized": {
+    "Title": "未经授权",
+    "para": "抱歉，您无权访问此页面。仅限",
+    "highlight": "管理员访问",
+    "button": "返回主页"
+  }
+}
