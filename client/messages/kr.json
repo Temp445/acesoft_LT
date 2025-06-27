@@ -13,7 +13,8 @@
     "Dashboard": "대시보드",
     "Login": "로그인",
     "Logout": "로그아웃",
-    "Allproducts": "모든 제품"
+    "Allproducts": "모든 제품",
+    "bookDemo": "데모 예약"
   },
   "Hero": {
     "Title": "훌륭한 제품은",
@@ -132,6 +133,10 @@
       "Us": "",
       "Subtitle": "문의 및 데모 예약",
       "highlight": "오늘의 데모!",
+      "demo": "무료 예약",
+      "RequestCallback": "콜백 요청하기",
+      "para": "Ace Software 제품이 귀사의 비즈니스를 어떻게 향상시킬 수 있는지 궁금하신가요? 양식을 작성하시면 저희 제품 전문가가 전화로 귀하의 요구사항을 파악하고 최적의 솔루션을 제안드립니다.",
+      "write": "다음 이메일로도 문의하실 수 있습니다:",
       "directContacts": "직통 연락처",
       "callSchedule": "전화 또는 화상 회의 예약",
       "support": "지원",
@@ -152,18 +157,18 @@
   "Footer": {
     "contactUs": "문의하기",
     "address": "인도 첸나이‑600032, NSIC‑STP‑B‑24, Guindy Industrial Estate, 306호 2층",
-    "links": {
-      "company": "회사 소개",
-      "help": "도움말",
-      "customerSupport": "고객 지원",
-      "blogs": "블로그",
-      "terms": "이용 약관",
-      "privacy": "개인정보 처리방침",
-      "about": "회사 정보",
-      "products": "제품",
-      "productEnquiry": "제품 문의",
-      "bookDemo": "데모 예약"
-    },
+  "links": {
+  "QuickLinks": "빠른 링크",
+  "help": "도움말",
+  "Home": "홈",
+  "Products": "제품",
+  "Contact": "문의하기",
+  "about": "회사 소개",
+  "phone": "전화",
+  "email": "이메일",
+  "productEnquiry": "제품 문의",
+  "bookDemo": "데모 예약"
+},
     "copyright": "© 2025 All Rights Reserved"
   },
   "products": {
@@ -187,5 +192,21 @@
     "para": "죄송합니다. 이 페이지에 대한 액세스 권한이 없습니다. 관리자 전용입니다.",
     "highlight": "관리자만",
     "button": "홈으로 돌아가기"
-  }
+  },
+  "CallbackCard": {
+  "Heading": "적절한 제품 선택에 도움이 필요하신가요? ",
+  "highlight": "적절한 제품",
+  "Subtitle": "질문이나 제품 관련 문의가 있으신가요? 저희가 도와드리겠습니다.",
+  "button": "콜백 요청하기",
+  "contact": "문의하기",
+  "phone": "전화",
+  "email": "이메일",
+  "Title": "가장 인기 있는 제품",
+  "feature1": "교정 관리 시스템",
+  "feature2": "고객 관계 관리",
+  "tagline1": "신뢰할 수 있는 교정 관리로 생산성을 높이세요.",
+  "tagline2": "고객을 이해하고, 신뢰를 구축하며, 비즈니스를 성장시키세요.",
+  "LearnMore": "자세히 알아보기"
+}
+
 }

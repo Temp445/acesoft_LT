@@ -16,7 +16,8 @@ const CalendlyEmbed = () => {
       </div>
       <h1 className="mt-10 text-xl md:text-2xl font-bold md:font-extrabold  text-center text-shadow-lg/20">Book A Free Demo Now!</h1>
       <div className="App">
-        <InlineWidget url={calendlyUrl ?? ""} />
+        <InlineWidget url={calendlyUrl ?? ""} styles={{ height: '700px' }}/>
+            
       </div>
     </div>
   );

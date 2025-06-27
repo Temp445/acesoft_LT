@@ -14,7 +14,8 @@
     "Dashboard": "仪表盘",
     "Login": "登录",
     "Logout": "登出",
-    "Allproducts": "全部产品"
+    "Allproducts": "全部产品",
+    "bookDemo": "预约演示"
   },
 
   "Hero": {
@@ -136,6 +137,10 @@
       "Us": "我们",
       "Subtitle": "联系我们并预约",
       "highlight": "演示！",
+      "demo": "预订一个免费",
+      "RequestCallback": "请求回电",
+      "para": "想了解 Ace Software 产品如何提升您的业务？请填写表格，我们的产品专家将致电与您沟通需求，并推荐最合适的解决方案。",
+      "write": "您也可以通过以下方式联系我们：",
       "directContacts": "直接联系方式",
       "callSchedule": "致电或安排视频会议",
       "support": "技术支持",
@@ -157,18 +162,18 @@
   "Footer": {
     "contactUs": "联系我们",
     "address": "印度金奈市 Ekkatuthangal，Guindy 工业区，B-24，NSIC 软件科技园，306 室，2 楼，邮编 600032",
-    "links": {
-      "company": "公司",
-      "help": "帮助",
-      "customerSupport": "客户支持",
-      "blogs": "博客",
-      "terms": "条款与条件",
-      "privacy": "隐私政策",
-      "about": "关于我们",
-      "products": "产品",
-      "productEnquiry": "产品咨询",
-      "bookDemo": "预约演示"
-    },
+   "links": {
+  "QuickLinks": "快速链接",
+  "help": "帮助",
+  "Home": "首页",
+  "Products": "产品",
+  "Contact": "联系我们",
+  "about": "关于我们",
+  "phone": "电话",
+  "email": "电子邮件",
+  "productEnquiry": "产品咨询",
+  "bookDemo": "预约演示"
+},
     "copyright": "© 2025 版权所有，保留所有权利 "
   },
 
@@ -194,5 +199,21 @@
     "para": "抱歉，您无权访问此页面。仅限",
     "highlight": "管理员访问",
     "button": "返回主页"
-  }
+  },
+  "CallbackCard": {
+  "Heading": "需要帮助选择 ",
+  "highlight": "合适的产品",
+  "Subtitle": "有问题或产品需求？我们很乐意为您提供帮助。",
+  "button": "请求回电",
+  "contact": "联系我们",
+  "phone": "电话",
+  "email": "电子邮件",
+  "Title": "最受欢迎的产品",
+  "feature1": "校准管理系统",
+  "feature2": "客户关系管理",
+  "tagline1": "通过可靠的校准管理提升生产力。",
+  "tagline2": "了解客户，建立信任，发展业务。",
+  "LearnMore": "了解更多"
+}
+
 }

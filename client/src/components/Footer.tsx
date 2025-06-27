@@ -11,7 +11,7 @@ import linkedin from "../assets/Images/linkedin.png";
 import instagram from "../assets/Images/instagram.png";
 import { useTranslations } from "next-intl";
 const Footer = () => {
-  const t = useTranslations('Footer')
+  const t = useTranslations('Footer');
   return (
     <div className="bg-[#FFF5F5] mt-10 xl:mt-40 py-8 bottom-0">
       <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
@@ -49,23 +49,22 @@ const Footer = () => {
           <div className="grid grid-cols-2 gap-4">
 
             <div className="flex flex-col space-y-4">
-              <h1 className="text-sm md:text-base xl:text-lg font-semibold">{t('links.company')}</h1>
+              <h1 className="text-sm md:text-base xl:text-lg font-semibold">{t('links.QuickLinks')} </h1>
               <div className="flex flex-col space-y-2 md:space-y-3">
-                <Link href="#" className="text-xs md:text-sm xl:text-base hover:text-gray-600 transition-colors">{t('links.customerSupport')}</Link>
-                <Link href="#" className="text-xs md:text-sm xl:text-base hover:text-gray-600 transition-colors">{t('links.blogs')}</Link>
-                <Link href="#" className="text-xs md:text-sm xl:text-base hover:text-gray-600 transition-colors">{t('links.terms')}</Link>
-                <Link href="#" className="text-xs md:text-sm xl:text-base hover:text-gray-600 transition-colors">{t('links.privacy')}</Link>
+                <Link href="/" className="text-xs md:text-sm xl:text-base hover:text-gray-600 transition-colors">{t('links.Home')}</Link>
+                <Link href="/products" className="text-xs md:text-sm xl:text-base hover:text-gray-600 transition-colors">{t('links.Products')}</Link>
+                <Link href="/contact" className="text-xs md:text-sm xl:text-base hover:text-gray-600 transition-colors">{t('links.Contact')}</Link>
+                <Link href="/about" className="text-xs md:text-sm xl:text-base hover:text-gray-600 transition-colors">{t('links.about')}</Link>
               </div>
             </div>
 
 
             <div className="flex flex-col space-y-4  ">
               <h1 className="text-sm md:text-base xl:text-lg font-semibold">{t('links.help')}</h1>
-              <div className="flex flex-col space-y-2 md:space-y-3">
-                <Link href="/about" className="text-xs md:text-sm xl:text-base hover:text-gray-600 transition-colors">{t('links.about')}</Link>
-                <Link href="/products" className="text-xs md:text-sm xl:text-base hover:text-gray-600 transition-colors">{t('links.products')}</Link>
-                <Link href="/productenquire" className="text-xs md:text-sm xl:text-base hover:text-gray-600 transition-colors">{t('links.productEnquiry')}</Link>
-                <Link href="/demo" className="text-xs md:text-sm xl:text-base hover:text-gray-600 transition-colors">{t('links.bookDemo')}</Link>
+              <div className="flex flex-col space-y-2 md:space-y-2">
+                <a href="tel:+919840137210" className="text-xs md:text-sm xl:text-base">{t('links.phone')}: <br /><span className="text-gray-800 underline">+91 9840137210 </span> </a>
+                <a href="mailto:sales@acesoft.in"  className="text-xs md:text-sm xl:text-base ">{t('links.email')}: <br /><span className="text-gray-800 underline">sales@acesoft.in </span> </a>
+                <Link href="/contact" className="text-xs md:text-sm xl:text-base hover:text-gray-600 transition-colors ">{t('links.bookDemo')}</Link>
               </div>
             </div>
           </div>

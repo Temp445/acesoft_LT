@@ -21,8 +21,7 @@ const keywordRedirectMap: Record<string, string> = {
 // Step 3: Known paths that should never be redirected
 const knownPaths = new Set([
   '/',
-  '/productenquire',
-  '/test-lang',
+  '/request_callback',
   '/contact',
   '/about',
   '/admin',
@@ -81,7 +80,7 @@ export function middleware(request: NextRequest) {
   }
 
    const basePath = stripLocale(pathname);
-  if (knownPaths.has(basePath)) {
+  if (knownPaths.has(basePath) || pathname.startsWith('/admin/edit/')) {
     console.log('[middleware] Known path allowed:', basePath);
     return response || NextResponse.next();
   }
@@ -93,7 +92,7 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL(redirectTo, request.url));
   }
 
-    // return NextResponse.redirect(new URL('/', request.url));
+    // return Home page
      console.log('[middleware] Invalid route. Redirecting to /');
   return NextResponse.redirect(new URL('/', request.url));
 }

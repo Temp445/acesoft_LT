@@ -13,7 +13,8 @@
     "Dashboard": "Tableau de bord",
     "Login": "Connexion",
     "Logout": "Déconnexion",
-    "Allproducts": "Tous les produits"
+    "Allproducts": "Tous les produits",
+    "bookDemo": "Réserver une démo"
   },
   "Hero": {
     "Title": "Un grand produit se construit",
@@ -132,6 +133,10 @@
       "Us": "Nous",
       "Subtitle": "Contactez-nous et réservez une",
       "highlight": "démo aujourd’hui !",
+      "demo": "Réserver une gratuite",
+      "RequestCallback": "Demander un rappel",
+      "para": "Vous vous demandez comment les produits Ace Software peuvent améliorer votre entreprise ? Remplissez simplement le formulaire, et l’un de nos experts produits vous appellera pour comprendre vos besoins et recommander la solution idéale.",
+      "write": "Vous pouvez aussi nous écrire à :",
       "directContacts": "Contacts directs",
       "callSchedule": "Appel ou visioconférence",
       "support": "Support",
@@ -152,18 +157,18 @@
   "Footer": {
     "contactUs": "Contactez-nous",
     "address": "#306, 2ᵉ étage, NSIC–STP, B‑24, Guindy Industrial Estate, Ekkatuthangal, Chennai‑600032, Inde",
-    "links": {
-      "company": "Entreprise",
-      "help": "Aide",
-      "customerSupport": "Support client",
-      "blogs": "Blogs",
-      "terms": "Conditions générales",
-      "privacy": "Politique de confidentialité",
-      "about": "À propos",
-      "products": "Produits",
-      "productEnquiry": "Demande de produit",
-      "bookDemo": "Réserver une démo"
-    },
+  "links": {
+  "QuickLinks": "Liens rapides",
+  "help": "Aide",
+  "Home": "Accueil",
+  "Products": "Produits",
+  "Contact": "Contactez-nous",
+  "about": "À propos de nous",
+  "phone": "Téléphone",
+  "email": "E-mail",
+  "productEnquiry": "Demande de produit",
+  "bookDemo": "Réserver une démo"
+},
     "copyright": "© 2025, Tous droits réservés "
   },
   "products": {
@@ -187,5 +192,21 @@
     "para": "Désolé, vous n’avez pas accès à cette page. Elle est réservée aux",
     "highlight": "administrateurs",
     "button": "Aller à l’accueil"
-  }
+  },
+  "CallbackCard": {
+  "Heading": "Besoin d’aide pour choisir le ",
+  "highlight": "bon produit",
+  "Subtitle": "Des questions ou des besoins produits ? Nous sommes là pour vous aider.",
+  "button": "DEMANDER UN RAPPEL",
+  "contact": "Contactez-nous",
+  "phone": "Téléphone",
+  "email": "E-mail",
+  "Title": "Produits les plus populaires",
+  "feature1": "Système de gestion de l’étalonnage",
+  "feature2": "Gestion de la relation client",
+  "tagline1": "Boostez votre productivité avec une gestion fiable de l’étalonnage.",
+  "tagline2": "Connaissez vos clients. Gagnez leur confiance. Développez votre activité.",
+  "LearnMore": "En savoir plus"
+}
+
 }

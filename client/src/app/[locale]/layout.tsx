@@ -8,6 +8,8 @@ import {NextIntlClientProvider, hasLocale} from 'next-intl';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
 import Commonbar from "@/components/Commonbar";
+import CallbackCard from "@/components/CallbackCard";
+
 
 export const metadata = {
   title: "ACE Software Solutions Pvt. Ltd",
@@ -39,6 +41,7 @@ export default async function RootLayout({
           <NextIntlClientProvider> 
             <Commonbar/>
           {children}
+  <CallbackCard/>
           <BackToTop />
           <Footer />
           </NextIntlClientProvider> 

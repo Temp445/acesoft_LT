@@ -18,12 +18,12 @@ import Pic3 from "@/assets/Images/Abilash.png";
 import Pic4 from "@/assets/Images/Abishek.png";
 import Pic5 from "@/assets/Images/Anandh1.jpg";
 import { FaUserTie } from "react-icons/fa6";
-
 import Count from "../../../components/Count";
 import Image from "next/image";
 import Header from "@/components/Header";
 // import { trackConversion } from "@/lib/google";
 import { useTranslations } from "next-intl";
+import NotificationButton from "@/components/NotificationButton";
 const AboutPage = () => {
 
   const t = useTranslations('About')
@@ -313,6 +313,7 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
+      <NotificationButton/>
     </div>
 
   );

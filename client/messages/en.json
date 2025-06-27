@@ -15,7 +15,8 @@
   "Dashboard": "Dashboard",
   "Login": "Login",
   "Logout": "Logout",
-  "Allproducts": "All Products"
+  "Allproducts": "All Products",
+  "bookDemo": "Book A Demo"
   },
 
 
@@ -142,6 +143,10 @@
       "Us": "Us",
     "Subtitle": "Connect with us and Book a",
     "highlight" : "Demo today!",
+    "demo": "Book a Demo",
+    "RequestCallback": "Request a Callback",
+   "para":" Curious about how Ace Software  Products can elevate your business? Just fill out the form, and one of our product experts will call you to understand your requirements and recommend the perfect solution.",
+   "write":"You can also write to us at:",
     "directContacts": "Direct Contacts",
     "callSchedule": "Call or Schedule a video conference",
     "support": "Support",
@@ -164,14 +169,14 @@
   "contactUs": "Contact Us",
   "address": "#306, 2nd Floor, NSIC-Software Technology Business Park, B-24, Guindy Industrial Estate, Ekkatuthangal, Chennai-600032, India",
   "links": {
-     "company": "Company",
+     "QuickLinks": "Quick Links",
     "help": "Help",
-    "customerSupport": "Customer Support",
-    "blogs": "Blogs",
-    "terms": "Terms & Conditions",
-    "privacy": "Privacy Policy",
-    "about": "About",
-    "products": "Products",
+    "Home": "Home",
+    "Products": "Products",
+    "Contact": "Contact Us",
+    "about": "About Us",
+    "phone": "Phone",
+    "email": "Email",
     "productEnquiry": "Product Enquiry",
     "bookDemo": "Book A Demo"
   },
@@ -200,6 +205,22 @@
   "para": "Sorry, you don’t have access to this page. It’s reserved for",
   "highlight": "admins only",
   "button": "Go to Home"
+},
+
+"CallbackCard":{
+  "Heading": "Need assistance choosing the ",
+  "highlight": "right product",
+  "Subtitle": "Have questions or product needs? We’re happy to assist.",
+  "button": "REQUEST A CALLBACK",
+  "contact":"Contact Us",
+  "phone": "Phone",
+  "email": "Email",
+  "Title": "Most Popular Products",
+  "feature1": " Calibration Management System",
+  "feature2":"Customer Relationship Management",
+  "tagline1": "Boost Productivity with Reliable Calibration Management.",
+  "tagline2": "Know Your Customers. Build Trust. Grow Your Business.",
+  "LearnMore": "Learn more"
 }
 
 }

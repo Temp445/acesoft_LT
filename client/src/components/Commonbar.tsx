@@ -1,7 +1,5 @@
 "use client";
 import { FC, useState, useRef, useEffect } from "react";
-import Image from "next/image";
-import logo from '../assets/Images/AceLogo.png'
 import { usePathname } from 'next/navigation';
 import { useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';

@@ -13,7 +13,9 @@
     "Dashboard": "ダッシュボード",
     "Login": "ログイン",
     "Logout": "ログアウト",
-    "Allproducts": "すべての製品"
+    "Allproducts": "すべての製品",
+    "bookDemo": "デモを予約する"
+
   },
   "Hero": {
     "Title": "素晴らしい製品は",
@@ -132,6 +134,10 @@
       "Us": "",
       "Subtitle": "お問い合わせ＆",
       "highlight": "本日のデモを予約！",
+      "demo": "無料を予約する",
+      "RequestCallback": "コールバックをリクエスト",
+      "para": "Ace Softwareの製品がどのようにビジネスを向上させるか気になりますか？フォームにご記入いただければ、弊社の製品担当者がご要望を伺い、最適なソリューションをご提案いたします。",
+      "write": "こちらのメールアドレスにもご連絡いただけます：",
       "directContacts": "直通連絡先",
       "callSchedule": "電話またはビデオ会議を予約",
       "support": "サポート",
@@ -152,18 +158,18 @@
   "Footer": {
     "contactUs": "お問い合わせ",
     "address": "インド、チェンナイ‑600032、NSIC‑STP‑B‑24、Guindy Industrial Estate、#306, 2階",
-    "links": {
-      "company": "会社情報",
-      "help": "ヘルプ",
-      "customerSupport": "カスタマーサポート",
-      "blogs": "ブログ",
-      "terms": "利用規約",
-      "privacy": "プライバシーポリシー",
-      "about": "会社概要",
-      "products": "製品",
-      "productEnquiry": "製品お問い合わせ",
-      "bookDemo": "デモを予約"
-    },
+   "links": {
+  "QuickLinks": "クイックリンク",
+  "help": "ヘルプ",
+  "Home": "ホーム",
+  "Products": "製品",
+  "Contact": "お問い合わせ",
+  "about": "会社概要",
+  "phone": "電話",
+  "email": "メール",
+  "productEnquiry": "製品のお問い合わせ",
+  "bookDemo": "デモを予約する"
+},
     "copyright": "© 2025 All Rights Reserved"
   },
   "products": {
@@ -187,5 +193,21 @@
     "para": "申し訳ありません。このページは",
     "highlight": "管理者専用です",
     "button": "ホームへ戻る"
-  }
+  },
+  "CallbackCard": {
+  "Heading": "最適な製品選びにお困りですか？ ",
+  "highlight": "最適な製品",
+  "Subtitle": "ご質問やご要望があれば、お気軽にご相談ください。",
+  "button": "コールバックをリクエスト",
+  "contact": "お問い合わせ",
+  "phone": "電話",
+  "email": "メール",
+  "Title": "最も人気のある製品",
+  "feature1": "キャリブレーション管理システム",
+  "feature2": "顧客関係管理（CRM）",
+  "tagline1": "信頼できるキャリブレーション管理で生産性を向上。",
+  "tagline2": "顧客を理解し、信頼を築き、ビジネスを成長させましょう。",
+  "LearnMore": "詳細はこちら"
+}
+
 }

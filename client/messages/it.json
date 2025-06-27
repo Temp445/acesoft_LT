@@ -13,7 +13,8 @@
     "Dashboard": "Dashboard",
     "Login": "Accedi",
     "Logout": "Esci",
-    "Allproducts": "Tutti i prodotti"
+    "Allproducts": "Tutti i prodotti",
+     "bookDemo": "Prenota una demo"
   },
   "Hero": {
     "Title": "Un grande prodotto si crea",
@@ -132,6 +133,10 @@
       "Us": "Noi",
       "Subtitle": "Contattaci e prenota una",
       "highlight": "demo oggi!",
+      "demo": "Prenota una gratuita",
+      "RequestCallback": "Richiedi una chiamata",
+      "para": "Sei curioso di sapere come i prodotti Ace Software possano migliorare la tua azienda? Compila semplicemente il modulo e uno dei nostri esperti ti chiamerà per capire le tue esigenze e consigliarti la soluzione perfetta.",
+      "write": "Puoi anche scriverci a:",
       "directContacts": "Contatti diretti",
       "callSchedule": "Chiamata o videochiamata",
       "support": "Supporto",
@@ -152,18 +157,18 @@
   "Footer": {
     "contactUs": "Contattaci",
     "address": "#306, 2° piano, NSIC-Software Technology Business Park, B-24, Guindy Industrial Estate, Ekkatuthangal, Chennai-600032, India",
-    "links": {
-      "company": "Azienda",
-      "help": "Aiuto",
-      "customerSupport": "Supporto clienti",
-      "blogs": "Blog",
-      "terms": "Termini e condizioni",
-      "privacy": "Informativa sulla privacy",
-      "about": "Chi siamo",
-      "products": "Prodotti",
-      "productEnquiry": "Richiesta prodotto",
-      "bookDemo": "Prenota demo"
-    },
+ "links": {
+  "QuickLinks": "Collegamenti rapidi",
+  "help": "Aiuto",
+  "Home": "Home",
+  "Products": "Prodotti",
+  "Contact": "Contattaci",
+  "about": "Chi siamo",
+  "phone": "Telefono",
+  "email": "Email",
+  "productEnquiry": "Richiesta prodotto",
+  "bookDemo": "Prenota una demo"
+},
     "copyright": "© 2025, Tutti i diritti riservati "
   },
   "products": {
@@ -187,5 +192,21 @@
     "para": "Spiacenti, non hai accesso a questa pagina. È riservata ai",
     "highlight": "amministratori",
     "button": "Vai alla homepage"
-  }
+  },
+  "CallbackCard": {
+  "Heading": "Hai bisogno di aiuto per scegliere il ",
+  "highlight": "prodotto giusto",
+  "Subtitle": "Hai domande o necessità? Siamo felici di aiutarti.",
+  "button": "RICHIEDI UNA CHIAMATA",
+  "contact": "Contattaci",
+  "phone": "Telefono",
+  "email": "Email",
+  "Title": "Prodotti più popolari",
+  "feature1": "Sistema di gestione della calibrazione",
+  "feature2": "Gestione delle relazioni con i clienti",
+  "tagline1": "Aumenta la produttività con una gestione affidabile della calibrazione.",
+  "tagline2": "Conosci i tuoi clienti. Costruisci fiducia. Fai crescere il tuo business.",
+  "LearnMore": "Scopri di più"
+}
+
 }

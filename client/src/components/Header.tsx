@@ -58,10 +58,9 @@ export default function Header(): JSX.Element {
 
   const navigation: NavigationItem[] = [
     { name: t('Product'), href: '/products' },
-    { name: t('Enquiry'), href: '/productenquire'  },
     { name: t('Contact'), href: '/contact' },
     { name: t('About'), href: '/about' },
-    { name: t('Dashboard'), href: '/admin',  className: 'md:hidden lg:block' },
+    // { name: t('Dashboard'), href: '/admin',  className: 'md:hidden lg:block' },
     isAuthenticated
       ? { name: t('Logout'), href: '#', onClick: handleLogout }
       : { name: t('Login'), href: '/login', className: 'md:hidden lg:block' },

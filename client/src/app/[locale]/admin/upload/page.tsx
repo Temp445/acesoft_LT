@@ -484,7 +484,7 @@ const ProductUpload: React.FC = () => {
                   onChange={(e) => handleNestedLocalizedChange(e, lang, index, "plans", "name")}
                   className="w-full p-2 border border-gray-300 rounded mb-2"
                 />
-                   <label className="text-sm font-medium text-gray-600">Tag Line ({getLanguageName(lang)})</label>
+                   <label className="text-sm font-medium text-gray-600">Plan Description ({getLanguageName(lang)})</label>
                 <input
                   type="text"
                   value={plan.pricedescription[lang] || ''}

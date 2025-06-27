@@ -35,7 +35,7 @@ const ContactUs: React.FC = () => {
   const [phoneError, setPhoneError] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
   const emailInputRef = useRef<HTMLInputElement | null>(null);
-
+  const [checkboxError, setCheckboxError] = useState(false);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -89,6 +89,14 @@ const ContactUs: React.FC = () => {
       setPhoneError('');
     }
 
+    const checkedProducts = Array.from(formCurrent.querySelectorAll<HTMLInputElement>('input[name="product"]:checked'));
+    if (checkedProducts.length === 0) {
+      setCheckboxError(true);
+      return;
+    } else {
+      setCheckboxError(false);
+    }
+
     const phoneWithoutPlus = phone.replace(/[\s+]/g, '');
 
     const formData = {
@@ -98,7 +106,7 @@ const ContactUs: React.FC = () => {
       Mobile_Number: phoneWithoutPlus,
       Location: formCurrent['location']?.value || '',
       Message: formCurrent['queries']?.value || '',
-      Product_Interested: formCurrent['product']?.value || '',
+      Product_Interested: checkedProducts.map((p) => p.value).join(', '),
       Originate_From: 'Ace Soft Contact Page',
     };
 
@@ -170,37 +178,36 @@ const ContactUs: React.FC = () => {
             <form ref={form} onSubmit={handleSubmit} className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="flex flex-col">
-                  <label htmlFor="Name" className="lg:text-lg font-medium">
-                    {t('Form.Name')}
+                  <label htmlFor="Name" className="font-medium">
+                    {t('Form.Name')}:
                   </label>
                   <input
                     type="text"
                     name="Name"
                     placeholder={`${t('Form.NamePlaceholder')} *`}
-                    className="text-sm md:text-[16px] border p-2 mt-1 rounded w-full focus:outline-none focus:ring-2 focus:ring-red-100"
+                    className="text-sm border p-2 mt-1 rounded w-full focus:outline-none focus:ring-2 focus:ring-red-100"
                     required
                   />
 
                 </div>
                 <div className="flex flex-col">
-                  <label htmlFor="company" className="lg:text-lg font-medium">
-                    {t('Form.Company')}
+                  <label htmlFor="company" className="font-medium">
+                    {t('Form.Company')}:
                   </label>
                   <input
                     type="text"
                     name="company"
                     placeholder={`${t('Form.CompanyPlaceholder')} *`}
-                    className="text-sm md:text-[16px] border p-2 mt-1 rounded w-full focus:outline-none focus:ring-2 focus:ring-red-100"
+                    className="text-sm border p-2 mt-1 rounded w-full focus:outline-none focus:ring-2 focus:ring-red-100"
                     required
                   />
-
                 </div>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="flex flex-col">
-                  <label htmlFor="email" className="lg:text-lg font-medium">
-                    {t('Form.Email')}
+                  <label htmlFor="email" className=" font-medium">
+                    {t('Form.Email')}:
                   </label>
                   <input
                     ref={emailInputRef}
@@ -208,7 +215,7 @@ const ContactUs: React.FC = () => {
                     name="email"
                     placeholder={`${t('Form.EmailPlaceholder')} *`}
                     onChange={(e) => setEmail(e.target.value.trim())}
-                    className="text-sm md:text-[16px] border p-2 mt-1 rounded w-full focus:outline-none focus:ring-2 focus:ring-red-100"
+                    className="text-sm  border p-2 mt-1 rounded w-full focus:outline-none focus:ring-2 focus:ring-red-100"
                     required
                   />
                   {emailError && (
@@ -219,8 +226,8 @@ const ContactUs: React.FC = () => {
                 </div>
 
                 <div className="flex flex-col">
-                  <label htmlFor="number" className="lg:text-lg font-medium">
-                    {t('Form.Mobile')}
+                  <label htmlFor="number" className=" font-medium">
+                    {t('Form.Mobile')}:
                   </label>
                   <PhoneInput
                     international
@@ -237,7 +244,7 @@ const ContactUs: React.FC = () => {
                 </div>
               </div>
 
-              <label htmlFor="product" className="lg:text-lg font-medium">
+              {/* <label htmlFor="product" className="lg:text-lg font-medium">
                 {t('Form.Product')}
               </label>
               <input
@@ -246,18 +253,50 @@ const ContactUs: React.FC = () => {
                 placeholder={`${t('Form.ProductPlaceholder')} *`}
                 className="text-sm md:text-[16px] border p-2 mt-1 rounded w-full focus:outline-none focus:ring-2 focus:ring-red-100"
                 required
-              />
-              <label htmlFor="location" className="lg:text-lg font-medium">
-               {t('Form.Location')}
+              /> */}
+              <label htmlFor="location" className=" font-medium">
+               {t('Form.Location')}:
               </label>
               <input
                 type="text"
                 name="location"
                 placeholder={`${t('Form.Location')} *`}
-                className="text-sm md:text-[16px] border p-2 mt-1 rounded w-full focus:outline-none focus:ring-2 focus:ring-red-100"
+                className="text-sm  border p-2 mt-1 rounded w-full focus:outline-none focus:ring-2 focus:ring-red-100"
                 required
               />
-              <label className="lg:text-lg font-medium">{t('Form.Queries')} </label>
+                      <div>
+                            <label className="block  font-medium ">{t('Form.Product')}:</label>
+                            <div className="grid md:grid-cols-2 gap-4 mt-2">
+                              {[
+                                'ACE CRM',
+                                'ACE PMS',
+                                'ACE CMS',
+                                'ACE Project',
+                                'ACE Profit PPAP',
+                                'PPAP Manager',
+                                'ACE FAM',
+                                'ACE Profit ERP',
+                                'ACE Profit HRMS',
+                                'ACE Payroll',
+                                'ACE TMS',
+                                'Engineering Balloon Annotator',
+                              ].map((product) => (
+                                <label key={product} className="flex items-center space-x-2">
+                                  <input
+                                    type="checkbox"
+                                    name="product"
+                                    value={product}
+                                    className="h-4 w-4 text-indigo-600 border-gray-300"
+                                  />
+                                  <span className="text-sm text-gray-700">{product}</span>
+                                </label>
+                              ))}
+                            </div>
+                            {checkboxError && (
+                              <p className="text-red-500 text-sm mt-1">{t('Form.CheckboxError')}</p>
+                            )}
+                          </div>
+              <label className="lg:text-lg font-medium">{t('Form.Queries')}: </label>
               <textarea
                 name="queries"
                 placeholder={`${t('Form.QueriesPlaceholder')} *`}

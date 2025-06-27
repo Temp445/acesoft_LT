@@ -15,7 +15,7 @@ import BookCard from "@/components/BookCard";
 // import { env } from "@/lib/env"
 import { useLocale } from 'next-intl';
 import { useTranslations } from "next-intl";
-
+import NotificationButton from "@/components/NotificationButton";
 const apiUrl = process.env.NEXT_PUBLIC_API_URL || "";
 
 interface LocalizedString {
@@ -724,7 +724,7 @@ const ProductDetails: React.FC = () => {
             <ContactUs />
           </div>
         )}
-
+        <NotificationButton/>
       </div>
     </div>
   );

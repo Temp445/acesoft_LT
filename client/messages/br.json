@@ -13,7 +13,8 @@
     "Dashboard": "Dashboard",
     "Login": "Entrar",
     "Logout": "Sair",
-    "Allproducts": "Todos os Produtos"
+    "Allproducts": "Todos os Produtos",
+    "bookDemo": "Agendar Demonstração"
   },
   "Hero": {
     "Title": "Grandes produtos são feitos",
@@ -132,6 +133,10 @@
       "Us": "",
       "Subtitle": "Contato & Agende uma",
       "highlight": "Demo hoje!",
+      "demo": "Agendar uma gratuita",
+      "RequestCallback": "Solicitar um retorno",
+      "para": "Quer saber como os produtos da Ace Software podem melhorar o seu negócio? Basta preencher o formulário e um de nossos especialistas ligará para entender suas necessidades e recomendar a solução ideal.",
+      "write": "Você também pode nos escrever em:",
       "directContacts": "Contatos Diretos",
       "callSchedule": "Ligação ou videochamada",
       "support": "Suporte",
@@ -153,17 +158,17 @@
     "contactUs": "Contate-Nos",
     "address": "#306, 2º Andar, NSIC‑Software Technology Business Park, B‑24, Guindy Industrial Estate, Ekkatuthangal, Chennai‑600032, Índia",
     "links": {
-      "company": "Empresa",
-      "help": "Ajuda",
-      "customerSupport": "Suporte ao Cliente",
-      "blogs": "Blogs",
-      "terms": "Termos & Condições",
-      "privacy": "Política de Privacidade",
-      "about": "Sobre Nós",
-      "products": "Produtos",
-      "productEnquiry": "Solicitação de Produto",
-      "bookDemo": "Agendar Demo"
-    },
+  "QuickLinks": "Links Rápidos",
+  "help": "Ajuda",
+  "Home": "Início",
+  "Products": "Produtos",
+  "Contact": "Fale Conosco",
+  "about": "Sobre Nós",
+  "phone": "Telefone",
+  "email": "E-mail",
+  "productEnquiry": "Consulta de Produto",
+  "bookDemo": "Agendar uma Demonstração"
+},
     "copyright": "© 2025 Todos os direitos reservados"
   },
   "products": {
@@ -187,5 +192,21 @@
     "para": "Desculpe, você não tem acesso a esta página. É reservada apenas para",
     "highlight": "administradores",
     "button": "Voltar ao Início"
-  }
+  },
+  "CallbackCard": {
+  "Heading": "Precisa de ajuda para escolher o ",
+  "highlight": "produto certo",
+  "Subtitle": "Tem dúvidas ou precisa de um produto? Estamos prontos para ajudar.",
+  "button": "SOLICITAR UMA LIGAÇÃO",
+  "contact": "Fale Conosco",
+  "phone": "Telefone",
+  "email": "Email",
+  "Title": "Produtos Mais Populares",
+  "feature1": "Sistema de Gestão de Calibração",
+  "feature2": "Gestão de Relacionamento com o Cliente",
+  "tagline1": "Aumente a produtividade com uma gestão de calibração confiável.",
+  "tagline2": "Conheça seus clientes. Construa confiança. Expanda seus negócios.",
+  "LearnMore": "Saiba mais"
+}
+
 }

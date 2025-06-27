@@ -14,7 +14,8 @@
     "Dashboard": "Dashboard",
     "Login": "Anmelden",
     "Logout": "Abmelden",
-    "Allproducts": "Alle Produkte"
+    "Allproducts": "Alle Produkte",
+    "bookDemo": "Demo buchen"
   },
 
   "Hero": {
@@ -136,6 +137,10 @@
       "Us": "Uns",
       "Subtitle": "Kontaktieren Sie uns und buchen Sie eine",
       "highlight": "Demo noch heute!",
+      "demo": "Buchen Sie eine kostenlose",
+      "RequestCallback": "Rückruf anfordern",
+      "para": "Neugierig, wie Ace Software-Produkte Ihr Unternehmen voranbringen können? Füllen Sie einfach das Formular aus und einer unserer Produktexperten ruft Sie an, um Ihre Anforderungen zu verstehen und die perfekte Lösung zu empfehlen.",
+      "write": "Sie können uns auch schreiben an:",
       "directContacts": "Direkte Kontakte",
       "callSchedule": "Anrufen oder Videokonferenz planen",
       "support": "Support",
@@ -157,18 +162,18 @@
   "Footer": {
     "contactUs": "Kontaktieren Sie uns",
     "address": "#306, 2. Etage, NSIC Software Technology Business Park, B-24, Guindy Industrial Estate, Ekkatuthangal, Chennai-600032, Indien",
-    "links": {
-      "company": "Unternehmen",
-      "help": "Hilfe",
-      "customerSupport": "Kundensupport",
-      "blogs": "Blogs",
-      "terms": "Allgemeine Geschäftsbedingungen",
-      "privacy": "Datenschutzrichtlinie",
-      "about": "Über uns",
-      "products": "Produkte",
-      "productEnquiry": "Produktanfrage",
-      "bookDemo": "Demo buchen"
-    },
+   "links": {
+  "QuickLinks": "Schnellzugriff",
+  "help": "Hilfe",
+  "Home": "Startseite",
+  "Products": "Produkte",
+  "Contact": "Kontaktieren Sie uns",
+  "about": "Über uns",
+  "phone": "Telefon",
+  "email": "E-Mail",
+  "productEnquiry": "Produktanfrage",
+  "bookDemo": "Demo buchen"
+},
     "copyright": "© Copyright 2025, Alle Rechte vorbehalten von "
   },
 
@@ -194,5 +199,21 @@
     "para": "Entschuldigung, Sie haben keinen Zugriff auf diese Seite. Sie ist nur für",
     "highlight": "Administratoren",
     "button": "Zur Startseite"
-  }
+  },
+  "CallbackCard": {
+  "Heading": "Benötigen Sie Hilfe bei der Auswahl des ",
+  "highlight": "richtigen Produkts",
+  "Subtitle": "Fragen oder Produktanforderungen? Wir helfen Ihnen gerne weiter.",
+  "button": "RÜCKRUF ANFORDERN",
+  "contact": "Kontaktieren Sie uns",
+  "phone": "Telefon",
+  "email": "E-Mail",
+  "Title": "Beliebteste Produkte",
+  "feature1": "Kalibriermanagement-System",
+  "feature2": "Kundenbeziehungsmanagement",
+  "tagline1": "Steigern Sie die Produktivität mit zuverlässigem Kalibriermanagement.",
+  "tagline2": "Kennen Sie Ihre Kunden. Bauen Sie Vertrauen auf. Wachsen Sie mit Ihrem Geschäft.",
+  "LearnMore": "Mehr erfahren"
+}
+
 }

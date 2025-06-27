@@ -32,6 +32,7 @@ const ContactUs: React.FC = () => {
   const emailInputRef = useRef<HTMLInputElement | null>(null);
   const t = useTranslations('ProductEnquiry');
   const countryCode = t('code') as CountryCode || 'IN';
+   const [checkboxError, setCheckboxError] = useState(false);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -80,6 +81,15 @@ const ContactUs: React.FC = () => {
       setPhoneError('');
     }
 
+    
+    const checkedProducts = Array.from(formCurrent.querySelectorAll<HTMLInputElement>('input[name="product"]:checked'));
+    if (checkedProducts.length === 0) {
+      setCheckboxError(true);
+      return;
+    } else {
+      setCheckboxError(false);
+    }
+
     const phoneWithoutPlus = phone.replace(/[\s+]/g, '');
 
     const formData = {
@@ -89,7 +99,7 @@ const ContactUs: React.FC = () => {
       Mobile_Number: phoneWithoutPlus,
       Location: formCurrent['location']?.value || '',
       Message: formCurrent['queries']?.value || '',
-      Product_Interested: formCurrent['product']?.value || '',
+      Product_Interested: checkedProducts.map((p) => p.value).join(', '),
       Originate_From: 'Ace Soft Contact Form',
     };
 
@@ -142,9 +152,9 @@ const ContactUs: React.FC = () => {
 
   return (
     <div>
-      <div className=" mt-0 px-2 " id="contact" >
+      <div className=" mt-0 px-5 " id="contact" >
         <h1 className=" w-full mx-auto text-center mt-0 mb-5 font-semibold  text-xl  md:mb-0 md:text-3xl">{t('contacts.contact')} <span className="text-blue-500">{t('contacts.Us')}</span></h1>
-        <div className="flex flex-col md:flex-row p-4  rounded-lg border md:border-gray-300 max-w-8xl mx-auto sm:mt-10 mb-20 justify-center">
+        <div className="flex flex-col md:flex-row p-4  rounded-lg border md:border-gray-300 max-w-7xl mx-auto sm:mt-10 mb-20 justify-center">
           {/* Left */}
           <div className="md:w-2/3">
             <h2 className="text-lg md:text-3xl font-semibold text-gray-800 mb-6">
@@ -216,18 +226,6 @@ const ContactUs: React.FC = () => {
                 </div>
               </div>
 
-              <div className="flex flex-col">
-                <label htmlFor="datetime" className="lg:text-lg font-medium">
-                  {t('Form.Product')}
-                </label>
-                <input
-                  type="text"
-                  name="product"
-                  placeholder={`${t('Form.ProductPlaceholder')} *`}
-                  className="text-sm md:text-[16px] border p-2 mt-1 rounded w-full focus:outline-none focus:ring-2 focus:ring-red-100"
-                  required
-                />
-              </div>
 
               <label htmlFor="location" className="lg:text-lg font-medium">
                  {`${t('Form.Location')} *`}
@@ -239,6 +237,39 @@ const ContactUs: React.FC = () => {
                 className="text-sm md:text-[16px] border p-2 mt-1 rounded w-full focus:outline-none focus:ring-2 focus:ring-red-100"
                 required
               />
+
+               <div>
+                <label className="block  font-medium ">{t('Form.Product')}:</label>
+                <div className="grid md:grid-cols-2 gap-4 mt-2">
+                  {[
+                    'ACE CRM',
+                    'ACE PMS',
+                    'ACE CMS',
+                    'ACE Projects',
+                    'ACE Profit PPAP',
+                    'PPAP Manager',
+                    'ACE FAM',
+                    'ACE Profit ERP',
+                    'ACE Profit HRMS',
+                    'ACE Payroll',
+                    'ACE TMS',
+                    'Engineering Balloon Annotator',
+                  ].map((product) => (
+                    <label key={product} className="flex items-center space-x-2">
+                      <input
+                        type="checkbox"
+                        name="product"
+                        value={product}
+                        className="h-4 w-4 text-indigo-600 border-gray-300"
+                      />
+                      <span className="text-sm text-gray-700">{product}</span>
+                    </label>
+                  ))}
+                </div>
+                {checkboxError && (
+                  <p className="text-red-500 text-sm mt-1">{t('Form.CheckboxError')}</p>
+                )}
+              </div>
               <label className="lg:text-lg font-medium">{t('Form.Queries')}</label>
               <textarea
                 name="queries"

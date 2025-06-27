@@ -22,7 +22,6 @@ export default function Header() {
 
 const t = useTranslations('Header');
   const navigation: NavigationItem[] = [
-  { name: t('Enquiry'), href: '#contact' },
   { name: t('Contact'), href: '#contact' },
   { name: t('About'), href: '#about' },
   { name: t('Allproducts'), href: '/products' },
@@ -58,7 +57,7 @@ const t = useTranslations('Header');
                
                 <Link href="#contact" passHref>
                   <div className="lg:hidden font-bold text-[12px] px-1 rounded bg-black text-white py-1 items-center ml-24 sm:ml-70">
-                    Book A Demo
+                    {t('bookDemo')}
                   </div>
                 </Link>
 

@@ -9,7 +9,7 @@ import Header from "@/components/Header";
 // import { env } from "@/lib/env"
 import { useLocale } from 'next-intl';
 import { useTranslations } from "next-intl";
-
+import NotificationButton from "@/components/NotificationButton";
 const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "";
 
 interface LocalizedString {
@@ -211,8 +211,10 @@ const ProductsPage: React.FC = () => {
               </div>
             )}
           </div>
+
         </div>
       </div>
+              <NotificationButton/>
     </div>
   );
 };

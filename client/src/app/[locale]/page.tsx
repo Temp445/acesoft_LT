@@ -16,7 +16,7 @@ import { SlCalender } from "react-icons/sl";
 import { useTranslations } from "next-intl";
 import { useLocale } from 'next-intl';
 // import { env } from "@/lib/env"
-
+import NotificationButton from "@/components/NotificationButton";
 const apiUrl =process.env.NEXT_PUBLIC_API_URL ?? "";
 
 
@@ -447,16 +447,16 @@ const HomePage: React.FC = () => {
       <div className="w-full max-w-6xl lg:max-w-7xl mx-auto px-6 md:px-32 py-8 md:py-10 bg-red-50 md:rounded-xl ">
         <div className="h-[320px] md:h-96 flex flex-col items-center justify-center border bg-white border-gray-300 rounded-xl p-8 shadow-lg relative">
           <div className="w-20 h-1 rounded-2xl justify-center bg-red-400"></div>
-          <h1 className="text-xl md:text-3xl font-extrabold text-center text-gray-800 mb-6 mt-8 md:mt-14 overflow-hidden">
+          <h1 className="text-xl md:text-3xl font-extrabold text-center text-gray-800 mb-6 mt-8 md:mt-2 lg:mt-14 overflow-hidden">
             {t('DemoCard.Title')}
           </h1>
 
-          <p className="text-[12px] md:text-lg text-center text-gray-600 max-w-3xl mb-10 overflow-hidden">
+          <p className="text-[12px] md:text-lg text-center text-gray-600 max-w-3xl mb-10 md:mb-5 lg:mb-10 overflow-hidden">
             {t('DemoCard.para')}
           </p>
 
           <Link
-            href="/demo"
+            href="/contact"
             className="overflow-hidden inline-flex md:mt-8 gap-3 text-sm md:text-lg items-center justify-center px-6 py-3 border border-red-500 font-medium rounded-full hover:bg-red-600 hover:text-white transition-colors duration-200 shadow-lg"
           >
             <span className="mb-1">
@@ -466,6 +466,7 @@ const HomePage: React.FC = () => {
           </Link>
         </div>
       </div>
+        <NotificationButton/>
 
       {/* Client Carousel */}
       <motion.div
