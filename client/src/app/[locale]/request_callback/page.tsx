@@ -16,6 +16,8 @@ import { CountryCode } from 'libphonenumber-js';
 import icon1 from '../../../assets/Images/icon2.png'
 import Image from 'next/image';
 import { useLocale } from 'next-intl';
+import Commonbar from '@/components/Commonbar';
+import Footer from '@/components/Footer';
 const service_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || '';
 const template_ID = process.env.NEXT_PUBLIC_EMAILJS_ENQ_TEMPLATE_ID || '';
 const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || '';
@@ -165,6 +167,7 @@ export default function RequestCallback() {
 
   return (
 <div className="min-h-screen ">
+  <Commonbar/>
   <Header />
 
   <div className="flex items-center justify-center py-10 md:py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-t from-white via-[#FFF1DC] to-[#FFF1DC]">
@@ -320,6 +323,7 @@ export default function RequestCallback() {
       </div>
     </div>
   </div>
+  <Footer/>
 </div>
 
 

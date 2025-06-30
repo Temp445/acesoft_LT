@@ -10,6 +10,8 @@ import Header from "@/components/Header";
 import { useLocale } from 'next-intl';
 import { useTranslations } from "next-intl";
 import NotificationButton from "@/components/NotificationButton";
+import Footer from "@/components/Footer";
+import Commonbar from "@/components/Commonbar";
 const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "";
 
 interface LocalizedString {
@@ -120,6 +122,7 @@ const ProductsPage: React.FC = () => {
 
   return (
     <div>
+      <Commonbar/>
       <Header />
       <div className="min-h-screen h-full 2xl:container w-full mx-auto">
         <div className="w-full h-50 bg-[#FFF5F5] flex flex-col items-center justify-center text-center p-6 mb-3 2xl:rounded-5">
@@ -215,6 +218,7 @@ const ProductsPage: React.FC = () => {
         </div>
       </div>
               <NotificationButton/>
+                <Footer />
     </div>
   );
 };

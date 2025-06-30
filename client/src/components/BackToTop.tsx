@@ -30,7 +30,7 @@ const BackToTop = () => {
 
   return (
     <button
-      className={`hidden lg:block fixed bottom-5 right-5 bg-gray-400 hover:bg-gray-900 text-white p-3 rounded-full shadow-lg z-50 ${visible ? "block" : "hidden"
+      className={`hidden lg:block fixed bottom-5 right-5 bg-gray-400 hover:bg-gray-900 text-white p-2 2xl:p-3 rounded-full shadow-lg z-50 ${visible ? "block" : "hidden"
         }`}
       onClick={scrollToTop}
     >

@@ -1,13 +1,11 @@
 
 import "../globals.css";
-import Footer from "@/components/Footer";
 import BackToTop from "@/components/BackToTop";
 import { AuthProvider } from '@/context/AuthContext';
 import { PageTracker } from "@/components/PageTracker";
 import {NextIntlClientProvider, hasLocale} from 'next-intl';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
-import Commonbar from "@/components/Commonbar";
 import CallbackCard from "@/components/CallbackCard";
 
 
@@ -40,11 +38,9 @@ export default async function RootLayout({
 
         <AuthProvider>
           <NextIntlClientProvider> 
-            <Commonbar/>
           {children}
           <CallbackCard/>
           <BackToTop />
-          <Footer />
           </NextIntlClientProvider> 
         </AuthProvider>
       </body>

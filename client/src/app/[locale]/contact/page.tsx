@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useRef, useState, useEffect, FormEvent, ChangeEvent } from "react";
+import React, { useRef, useState, useEffect, FormEvent } from "react";
 import { MdAddIcCall, MdOutlineMail, MdOutlineSendToMobile } from "react-icons/md";
 import { FaLaptopCode } from "react-icons/fa";
 import { RiCustomerService2Fill } from "react-icons/ri";
@@ -17,6 +17,8 @@ import PhoneInput, { isValidPhoneNumber } from "react-phone-number-input";
 import 'react-phone-number-input/style.css';
 import { useTranslations } from "next-intl";
 import { CountryCode } from 'libphonenumber-js';
+import Footer from "@/components/Footer";
+import Commonbar from "@/components/Commonbar";
 
 const service_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "";
 const template_ID = process.env.NEXT_PUBLIC_EMAILJS_ENQ_TEMPLATE_ID || "";
@@ -165,6 +167,7 @@ const ContactUs: React.FC = () => {
 
   return (
     <div>
+      <Commonbar/>
       <Header />
       <div className="mt-0 px-2">
         <h2 className="sm:hidden w-full mx-auto text-center mt-10 mb-5 font-semibold text-[24px]">
@@ -244,16 +247,6 @@ const ContactUs: React.FC = () => {
                 </div>
               </div>
 
-              {/* <label htmlFor="product" className="lg:text-lg font-medium">
-                {t('Form.Product')}
-              </label>
-              <input
-                type="text"
-                name="product"
-                placeholder={`${t('Form.ProductPlaceholder')} *`}
-                className="text-sm md:text-[16px] border p-2 mt-1 rounded w-full focus:outline-none focus:ring-2 focus:ring-red-100"
-                required
-              /> */}
               <label htmlFor="location" className=" font-medium">
                {t('Form.Location')}:
               </label>
@@ -264,38 +257,38 @@ const ContactUs: React.FC = () => {
                 className="text-sm  border p-2 mt-1 rounded w-full focus:outline-none focus:ring-2 focus:ring-red-100"
                 required
               />
-                      <div>
-                            <label className="block  font-medium ">{t('Form.Product')}:</label>
-                            <div className="grid md:grid-cols-2 gap-4 mt-2">
-                              {[
-                                'ACE CRM',
-                                'ACE PMS',
-                                'ACE CMS',
-                                'ACE Project',
-                                'ACE Profit PPAP',
-                                'PPAP Manager',
-                                'ACE FAM',
-                                'ACE Profit ERP',
-                                'ACE Profit HRMS',
-                                'ACE Payroll',
-                                'ACE TMS',
-                                'Engineering Balloon Annotator',
-                              ].map((product) => (
-                                <label key={product} className="flex items-center space-x-2">
-                                  <input
-                                    type="checkbox"
-                                    name="product"
-                                    value={product}
-                                    className="h-4 w-4 text-indigo-600 border-gray-300"
-                                  />
-                                  <span className="text-sm text-gray-700">{product}</span>
-                                </label>
-                              ))}
-                            </div>
-                            {checkboxError && (
-                              <p className="text-red-500 text-sm mt-1">{t('Form.CheckboxError')}</p>
-                            )}
-                          </div>
+        <div>
+              <label className="block  font-medium ">{t('Form.Product')}:</label>
+              <div className="grid md:grid-cols-2 gap-4 mt-2">
+                {[
+                  'ACE CRM',
+                  'ACE PMS',
+                  'ACE CMS',
+                  'ACE Project',
+                  'ACE Profit PPAP',
+                  'PPAP Manager',
+                  'ACE FAM',
+                  'ACE Profit ERP',
+                  'ACE Profit HRMS',
+                  'ACE Payroll',
+                  'ACE TMS',
+                  'Engineering Balloon Annotator',
+                ].map((product) => (
+                  <label key={product} className="flex items-center space-x-2">
+                    <input
+                      type="checkbox"
+                      name="product"
+                      value={product}
+                      className="h-4 w-4 text-indigo-600 border-gray-300"
+                    />
+                    <span className="text-sm text-gray-700">{product}</span>
+                  </label>
+                ))}
+              </div>
+              {checkboxError && (
+                <p className="text-red-500 text-sm mt-1">{t('Form.CheckboxError')}</p>
+              )}
+            </div>
               <label className="lg:text-lg font-medium">{t('Form.Queries')}: </label>
               <textarea
                 name="queries"
@@ -414,6 +407,7 @@ const ContactUs: React.FC = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

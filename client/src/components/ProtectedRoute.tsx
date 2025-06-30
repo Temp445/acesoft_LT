@@ -14,17 +14,20 @@ export default function AdminProtectedRoute({ children }: AdminProtectedRoutePro
 
   useEffect(() => {
     if (!loading && (!user || !isAdmin)) {
-      router.push('/unauthorized')
+      router.replace('/')
     }
   }, [user, loading, isAdmin, router])
 
   if (loading) {
     return (
-      <div className="flex justify-center items-center h-96">
+      <div className="flex justify-center h-screen items-center ">
         <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-black"></div>
       </div>
     )
   }
 
-  return isAdmin ? <>{children}</> : null
+   if (!user || !isAdmin) {
+    return null 
+  }
+  return <>{children}</>
 }

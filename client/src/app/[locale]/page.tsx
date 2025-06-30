@@ -17,6 +17,8 @@ import { useTranslations } from "next-intl";
 import { useLocale } from 'next-intl';
 // import { env } from "@/lib/env"
 import NotificationButton from "@/components/NotificationButton";
+import Footer from "@/components/Footer";
+import Commonbar from "@/components/Commonbar";
 const apiUrl =process.env.NEXT_PUBLIC_API_URL ?? "";
 
 
@@ -146,6 +148,7 @@ const HomePage: React.FC = () => {
 
   return (
     <div className="w-full mx-auto justify-center items-center xxl:container">
+      <Commonbar/>
       <Header />
       {/* Hero Section */}
       <div className="bg-[#FFF5F5]">
@@ -477,6 +480,7 @@ const HomePage: React.FC = () => {
       >
         <ClientCarousel />
       </motion.div>
+        <Footer />
     </div>
   );
 };

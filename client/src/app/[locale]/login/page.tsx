@@ -3,6 +3,8 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Header from '@/components/Header';
 import { useAuth } from '@/context/AuthContext';
+import Footer from '@/components/Footer';
+import Commonbar from '@/components/Commonbar';
 
 const Login = () => {
   const [formData, setFormData] = useState({
@@ -45,6 +47,7 @@ const Login = () => {
 
   return (
     <div>
+      <Commonbar/>
       <Header />
       <div className="flex md:items-center md:justify-center py-12 px-4 sm:px-6 lg:px-8 lg:mt-10">
         <div className="w-full max-w-md space-y-8 border px-5 py-10 md:px-10 rounded-2xl">
@@ -121,6 +124,7 @@ const Login = () => {
           </form>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

@@ -1,3 +1,5 @@
+import Commonbar from '@/components/Commonbar';
+import Footer from '@/components/Footer';
 import Header from '@/components/Header'
 import AdminProtectedRoute from '@/components/ProtectedRoute'
 import React from 'react'
@@ -10,8 +12,10 @@ const admin = ({
   return (
     <div>
       <AdminProtectedRoute>
+        <Commonbar/>
         <Header />
         {children}
+        <Footer/>
       </AdminProtectedRoute>
 
     </div>

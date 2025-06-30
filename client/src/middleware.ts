@@ -21,13 +21,11 @@ const keywordRedirectMap: Record<string, string> = {
 // Step 3: Known paths that should never be redirected
 const knownPaths = new Set([
   '/',
-  '/test',
   '/request_callback',
   '/contact',
   '/about',
   '/admin',
   '/admin/upload',
-  '/unauthorized',
   '/login',
   '/demo',
   '/user',

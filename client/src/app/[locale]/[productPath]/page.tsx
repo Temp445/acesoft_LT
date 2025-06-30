@@ -16,6 +16,8 @@ import BookCard from "@/components/BookCard";
 import { useLocale } from 'next-intl';
 import { useTranslations } from "next-intl";
 import NotificationButton from "@/components/NotificationButton";
+import Commonbar from "@/components/Commonbar";
+import Footer from "@/components/Footer";
 const apiUrl = process.env.NEXT_PUBLIC_API_URL || "";
 
 interface LocalizedString {
@@ -198,6 +200,7 @@ const ProductDetails: React.FC = () => {
 
   return (
     <div>
+      <Commonbar/>
       {showNavbar1 && (
         <div>
           <Header1 />
@@ -725,6 +728,7 @@ const ProductDetails: React.FC = () => {
           </div>
         )}
         <NotificationButton/>
+        <Footer/>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useRef, useState, useEffect, FormEvent, ChangeEvent } from "react";
+import React, { useRef, useState, useEffect, FormEvent } from "react";
 import { MdAddIcCall, MdOutlineMail, MdOutlineSendToMobile } from "react-icons/md";
 import { FaLaptopCode } from "react-icons/fa";
 import { RiCustomerService2Fill } from "react-icons/ri";
@@ -39,7 +39,7 @@ const ContactUs: React.FC = () => {
 
   const validateEmail = async (email: string): Promise<string> => {
     try {
-      const response = await fetch('/api/proxy-validate-email', {
+      const response = await fetch(endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email }),

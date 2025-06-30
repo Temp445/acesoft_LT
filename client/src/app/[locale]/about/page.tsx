@@ -24,6 +24,8 @@ import Header from "@/components/Header";
 // import { trackConversion } from "@/lib/google";
 import { useTranslations } from "next-intl";
 import NotificationButton from "@/components/NotificationButton";
+import Footer from "@/components/Footer";
+import Commonbar from "@/components/Commonbar";
 const AboutPage = () => {
 
   const t = useTranslations('About')
@@ -73,6 +75,7 @@ const AboutPage = () => {
   return (
 
     <div>
+      <Commonbar/>
       <Header />
       <div className="xxl:container w-full mx-auto">
         <motion.div
@@ -314,6 +317,7 @@ const AboutPage = () => {
         </div>
       </div>
       <NotificationButton/>
+      <Footer/>
     </div>
 
   );

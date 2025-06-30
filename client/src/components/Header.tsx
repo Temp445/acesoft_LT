@@ -62,7 +62,7 @@ export default function Header(): JSX.Element {
     { name: t('About'), href: '/about' },
     // { name: t('Dashboard'), href: '/admin',  className: 'md:hidden lg:block' },
     isAuthenticated
-      ? { name: t('Logout'), href: '#', onClick: handleLogout }
+      ? { name: t('Logout'), href: '/', onClick: handleLogout }
       : { name: t('Login'), href: '/login', className: 'md:hidden lg:block' },
   ];
 
