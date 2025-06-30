@@ -11,6 +11,7 @@ import Commonbar from "@/components/Commonbar";
 import CallbackCard from "@/components/CallbackCard";
 
 
+
 export const metadata = {
   title: "ACE Software Solutions Pvt. Ltd",
   description: "ACE Software Solutions Pvt. Ltd",
@@ -41,7 +42,7 @@ export default async function RootLayout({
           <NextIntlClientProvider> 
             <Commonbar/>
           {children}
-  <CallbackCard/>
+          <CallbackCard/>
           <BackToTop />
           <Footer />
           </NextIntlClientProvider> 

@@ -14,20 +14,15 @@ const multer = require("multer");
 // Multer storage config
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    cb(null, "./uploads/"); 
+    cb(null, "./uploads/");
   },
   filename: (req, file, cb) => {
-
-    const Imagename = file.originalname
-      .replace(/\s+/g, '-')        
-      .replace(/[^a-zA-Z0-9.-]/g, '')
-      .toLowerCase();                
-
-    cb(null, `${Date.now()}-${Imagename}`);
+    cb(null, `${Date.now()}-${file.originalname}`);
   },
 });
 
-const upload = multer({ storage });
+const upload = multer({ storage: storage });
+
 
 //get
 router.route("/product").get(getAllProducts);

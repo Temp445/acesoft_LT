@@ -6,7 +6,9 @@ import { AiOutlineCloseCircle } from "react-icons/ai";
 import { FaCalendarDays } from "react-icons/fa6";
 import { SiGoogleforms } from "react-icons/si";
 import { useTranslations } from 'next-intl';
-
+import icon from '../assets/Images/icon3.png'
+import Image from 'next/image';
+import form from '../assets/Images/icon3.png'
 const NotificationButton = () => {
   const t = useTranslations('ProductEnquiry');
 
@@ -63,7 +65,7 @@ const NotificationButton = () => {
 
 
   return (
-    <div className="fixed top-[55%] right-0 z-[200] space-y-2 flex flex-col items-end">
+    <div className="fixed top-[60%] right-0 z-[200] space-y-2 flex flex-col items-end">
 
   {showDemo && !DemoClosed  && (
     <div className="animate-slideInRight  flex items-center bg-[#0067FF] text-white py-2 px-2 rounded-l-lg shadow-lg relative ">
@@ -88,8 +90,9 @@ const NotificationButton = () => {
         href="/request_callback"
         className=" bg-white  text-black rounded px-3 mr-5 py-1 text-[13px] font-semibold flex items-center gap-1 w-full"
       >       
-{t('contacts.RequestCallback')} <SiGoogleforms  className="text-sm" />
+{t('contacts.RequestCallback')}   <Image src={form} alt='icon' width={100} height={100} className='w-7 h-7 ' /> 
       </Link>
+  
       <button
         onClick={handleCallbackClose}
         className="absolute right-1 text-white hover:text-red-300 text-lg font-bold"

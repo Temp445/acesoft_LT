@@ -14,9 +14,9 @@ dotenv.config({ path: path.join(__dirname, '.env') })
 // Middleware
 app.use(express.json());
 app.use(bodyParser.json());
-// app.use("/uploads", express.static("uploads"));
+app.use("/uploads", express.static("uploads"));
 app.use(cors());
-app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+
 // Connect to MongoDB
 mongoose
   .connect(process.env.DB_URL)
