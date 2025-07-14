@@ -27,7 +27,6 @@ const knownPaths = new Set([
   '/admin',
   '/admin/upload',
   '/login',
-  '/demo',
   '/user',
   '/videos',
   '/products',
@@ -38,6 +37,11 @@ const knownPaths = new Set([
   '/ace-fixed-asset-management-on-cloud',
   '/ace-profit-stand-alone-hrms',
   '/ace-profit-erp',
+  '/ace-engineering-balloon-annotator',
+  '/ace-task-management-system',
+  '/ace-ppap-manager',
+  '/ace-project',
+  '/ace-customer-relationship-management'
 ]);
 
 // Helper: should skip based on static file or API
@@ -71,7 +75,6 @@ export function middleware(request: NextRequest) {
 
   const response = intlMiddleware(request);
 
-
   // Skip internal or static files
   if (isSkippable(pathname)) {
     console.log('[middleware] Skipping static/API:', pathname);
@@ -79,7 +82,7 @@ export function middleware(request: NextRequest) {
   }
 
    const basePath = stripLocale(pathname);
-  if (knownPaths.has(basePath) || pathname.startsWith('/admin/edit/')) {
+  if (knownPaths.has(basePath) || pathname.startsWith('/products/')|| pathname.startsWith('/admin/edit/')|| pathname.startsWith('/demo/')|| pathname.startsWith('/request_callback/')) {
     console.log('[middleware] Known path allowed:', basePath);
     return response || NextResponse.next();
   }

@@ -1,10 +1,13 @@
 'use client'
 
 import React from 'react'
-import Link from 'next/link'
 import { SlCalender } from "react-icons/sl";
 import { useTranslations } from 'next-intl';
-const BookCard = () => {
+
+interface BookCardProps {
+  onClick: () => void
+}
+const BookCard = ({ onClick }: BookCardProps) => {
   const t = useTranslations('Hero')
   return (
     <div className=' mt-10 md:mt-14'>
@@ -17,20 +20,20 @@ const BookCard = () => {
           <div className='w-20 h-20 bg-blue-200 absolute right-0 bottom-0 rounded-tl-full'></div>
 
 
-          <h1 className=" text-xl md:text-3xl font-extrabold text-center text-gray-800 mb-6 mt-8 md:mt-14 py-3 overflow-hidden text-shadow-lg ">
+          <h1 className=" text-xl md:text-3xl font-extrabold text-center text-gray-800 mb-6 mt-3 md:mt-14 py-3 overflow-hidden text-shadow-lg ">
              {t('DemoCard.Title')}
           </h1>
 
-          <p className="text-[12px] md:text-lg text-center text-gray-600 max-w-3xl mb-10 overflow-hidden ">
+          <p className="text-[12px] md:text-lg text-center text-gray-600 max-w-3xl mb-8 overflow-hidden ">
              {t('DemoCard.para')}
           </p>
 
-          <Link
-            href="/demo"
+          <button
+           onClick={onClick}
             className=" overflow-hidden inline-flex md:mt-8 gap-3 text-sm md:text-lg items-center justify-center px-6 py-3 border border-blue-500  font-medium rounded-full hover:bg-blue-600 hover:text-white transition-colors duration-200 shadow-lg "
           >
             <span className='mb-1'> <SlCalender className='text-xl font-bold' /> </span>   {t('button.BookDemo')}
-          </Link>
+          </button>
         </div>
       </div>
     </div>

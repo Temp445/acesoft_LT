@@ -13,17 +13,41 @@ import 'react-phone-number-input/style.css';
 // import { env } from "@/lib/env"
 import { useTranslations } from 'next-intl';
 import { CountryCode } from 'libphonenumber-js';
-import icon1 from '../../../assets/Images/icon2.png'
+import icon1 from '@/assets/Images/icon2.png'
 import Image from 'next/image';
 import { useLocale } from 'next-intl';
 import Commonbar from '@/components/Commonbar';
 import Footer from '@/components/Footer';
+import { useParams } from 'next/navigation';
+import axios from 'axios';
 const service_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || '';
 const template_ID = process.env.NEXT_PUBLIC_EMAILJS_ENQ_TEMPLATE_ID || '';
 const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || '';
 const endpoint = '/api/proxy-validate-email';
+const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 
 export default function RequestCallback() {
+
+  const { productPath } = useParams();
+  const [productName, setproductName] = useState('');
+
+  useEffect(() => {
+    const fetchproductName = async () => {
+          try {
+      const res = await axios.get(`${apiUrl}/api/product/v1/${productPath}`);
+      if (res?.data?.productName) {
+        setproductName(res.data.productName);
+      }
+    } catch {
+      setproductName('');
+    }
+  };
+
+    if (productPath) {
+      fetchproductName()
+    }
+  }, [productPath])
+
   const t = useTranslations('ProductEnquiry');
   const locale = useLocale();
   const countryCode = t('code') as CountryCode || 'IN';
@@ -92,12 +116,14 @@ export default function RequestCallback() {
     }
 
     const checkedProducts = Array.from(formCurrent.querySelectorAll<HTMLInputElement>('input[name="product"]:checked'));
-    if (checkedProducts.length === 0) {
+    
+     if (!productName && checkedProducts.length === 0) {
       setCheckboxError(true);
       return;
     } else {
       setCheckboxError(false);
     }
+
 
     // Track conversion event for Google Ads
     // trackConversion({
@@ -115,7 +141,7 @@ export default function RequestCallback() {
       Mobile_Number: phoneWithoutPlus,
       Location: formCurrent['location']?.value || '',
       Message: formCurrent['queries']?.value || '',
-      Product_Interested: checkedProducts.map((p) => p.value).join(', '),
+      Product_Interested: productName || checkedProducts.map((p) => p.value).join(', '),
       Originate_From: "Ace Soft Enquiry Form",
     };
 
@@ -172,13 +198,12 @@ export default function RequestCallback() {
 
   <div className="flex items-center justify-center py-10 md:py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-t from-white via-[#FFF1DC] to-[#FFF1DC]">
     <div className="grid lg:grid-cols-2 gap-10 items-start w-full max-w-6xl animate-fadeIn">
-      
 
-      <div className="flex flex-col justify-center space-y-6 lg:mt-30">
-        <h1 className={`text-2xl md:text-3xl ${Text} font-bold text-gray-700 flex flex-row gap-4`}>{t('contacts.RequestCallback')} <span><Image src={icon1} alt="icon" width={100} height={100} className='w-12 h-12 md:w-16 md:h-16 -mt-3 md:-mt-5 rotate-6' /></span></h1>
+    <div className="flex flex-col justify-center space-y-6 lg:mt-30">
+        <h1 className={`text-2xl md:text-3xl ${Text} font-bold text-gray-700 flex flex-row gap-4`}>{t('ContactTitle')} <span><Image src={icon1} alt="icon" width={100} height={100} className='w-12 h-12 md:w-16 md:h-14 -mt-3 rotate-6' /></span></h1>
         <p className="lg:text-lg text-gray-700 leading-relaxed">
          {t('contacts.para')}
-        </p>
+    </p>
     <div className="border border-gray-300 rounded-lg p-4 max-w-sm bg-white shadow-sm">
   <p className="text-gray-700 mb-1">{t('contacts.write')}</p>
   <a
@@ -187,7 +212,7 @@ export default function RequestCallback() {
   >
     sales@acesoft.in
   </a>
-</div>
+  </div>
 
       </div>
 
@@ -267,38 +292,56 @@ export default function RequestCallback() {
             </div>
           </div>
 
-          <div>
-            <label className="block text-sm font-medium text-gray-700">{t('Form.Product')}</label>
-            <div className="grid md:grid-cols-2 gap-3 mt-2">
-              {[
-                'ACE CRM',
-                'ACE PMS',
-                'ACE CMS',
-                'ACE Project',
-                'ACE Profit PPAP',
-                'PPAP Manager',
-                'ACE FAM',
-                'ACE Profit ERP',
-                'ACE Profit HRMS',
-                'ACE Payroll',
-                'ACE TMS',
-                'Engineering Balloon Annotator',
-              ].map((product) => (
-                <label key={product} className="flex items-center space-x-2">
-                  <input
-                    type="checkbox"
-                    name="product"
-                    value={product}
-                    className="h-4 w-4 text-blue-600 border-gray-300"
-                  />
-                  <span className="text-sm text-gray-700">{product}</span>
-                </label>
-              ))}
+        {
+          productName ? (
+        
+            <div className="flex flex-wrap gap-2 w-full items-center">
+              <label className="block text-sm font-medium text-gray-700">
+                {t('Form.Product')}:
+              </label>
+              <input
+                type="text"
+                name="product"
+                value={productName}
+                readOnly
+                className="text-sm font-bold py-1"
+              />
             </div>
-            {checkboxError && (
-              <p className="text-red-500 text-sm mt-1">{t('Form.CheckboxError')}</p>
-            )}
-          </div>
+           ) : (
+             <div>
+               <label className="block text-sm font-medium text-gray-700">{t('Form.Product')}</label>
+               <div className="grid md:grid-cols-2 gap-3 mt-2">
+                 {[
+                   'ACE CRM',
+                   'ACE PMS',
+                   'ACE CMS',
+                   'ACE Project',
+                   'ACE Profit PPAP',
+                   'PPAP Manager',
+                   'ACE FAM',
+                   'ACE Profit ERP',
+                   'ACE Profit HRMS',
+                   'ACE Payroll',
+                   'ACE TMS',
+                   'Engineering Balloon Annotator',
+                 ].map((product) => (
+                   <label key={product} className="flex items-center space-x-2">
+                     <input
+                       type="checkbox"
+                       name="product"
+                       value={product}
+                       className="h-4 w-4 text-blue-600 border-gray-300"
+                     />
+                     <span className="text-sm text-gray-700">{product}</span>
+                   </label>
+                 ))}
+               </div>
+               {checkboxError && (
+                 <p className="text-red-500 text-sm mt-1">{t('Form.CheckboxError')}</p>
+               )}
+             </div>
+           )
+         }
 
           <div>
             <label className="block text-sm font-medium text-gray-700">{t('Form.Queries')}</label>

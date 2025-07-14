@@ -56,6 +56,7 @@ exports.createProduct = async (req, res) => {
   const {
     productName,
     productLink,
+    calendlyUrl,
     productPath,
     description,
     why_choose_des,
@@ -79,6 +80,7 @@ exports.createProduct = async (req, res) => {
     const newProduct = new Product({
       productName,
       productLink,
+      calendlyUrl,
       productPath,
       description: JSON.parse(description),
       why_choose_des: JSON.parse(why_choose_des),
@@ -115,6 +117,7 @@ exports.updateProduct = async (req, res) => {
     const updatedData = {
       productName: req.body.productName || product.productName,
       productLink: req.body.productLink || product.productLink,
+      calendlyUrl: req.body.calendlyUrl || product.calendlyUrl,
       productPath: req.body.productPath || product.productPath,
       description: req.body.description ? JSON.parse(req.body.description) : product.description,
       why_choose_des: req.body.why_choose_des ? JSON.parse(req.body.why_choose_des) : product.why_choose_des,

@@ -1,19 +1,26 @@
 'use client';
 
-import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { FaCalendarDays } from "react-icons/fa6";
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
-import form from '../assets/Images/icon3.png'
-const NotificationButton = () => {
+import { useRouter } from 'next/navigation';
+import { FaWpforms } from "react-icons/fa6";
+ 
+interface NotificationButtonProps {
+  productPath: string;
+  productName: string;
+}
+
+const NotificationButton: React.FC<NotificationButtonProps> = ({ productPath, productName }) => {
+
   const t = useTranslations('ProductEnquiry');
 
   const [showDemo, setShowDemo] = useState(false);
   const [showCallback, setShowCallback] = useState(false);
   const [DemoClosed, setDemoClosed] = useState(false);
   const [CallbackClosed, setCallbackClosed] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     const demoTimer = setTimeout(() => {
@@ -67,12 +74,12 @@ const NotificationButton = () => {
 
   {showDemo && !DemoClosed  && (
     <div className="animate-slideInRight  flex items-center bg-[#0067FF] text-white py-2 px-2 rounded-l-lg shadow-lg relative ">
-      <Link
-        href="/demo"
-        className="bg-white text-black rounded px-2 mr-5 py-1 text-[12px] font-semibold flex items-center gap-1 w-full"
+      <button
+        onClick={() =>  router.push(productPath ? `/demo/${productPath}` : '/demo/all-products')}
+        className="bg-white text-black rounded px-2 mr-5 py-1 text-[12px] font-semibold flex items-center gap-1 w-full cursor-pointer "
       >
         {t('contacts.demo')} <FaCalendarDays className="text-[13px]" />
-      </Link>
+      </button>
       <button
         onClick={handleDemoClose}
         className="absolute right-1 text-white hover:text-red-300 text-lg font-bold"
@@ -84,12 +91,13 @@ const NotificationButton = () => {
 
     {showCallback && !CallbackClosed && (
     <div className="animate-slideInRight  flex items-center bg-[#E42527] text-white py-2 px-2 rounded-l-lg shadow-lg relative  ">
-      <Link
-        href="/request_callback"
-        className=" bg-white  text-black rounded px-3 mr-5 py-1 text-[13px] font-semibold flex items-center gap-1 w-full"
+      <button
+        // href="/request_callback"
+          onClick={() =>  router.push(productName ? `/request_callback/${productPath}` : '/request_callback/all-products')}
+        className=" bg-white  text-black rounded px-3 mr-5 py-1 text-[13px] font-semibold flex items-center gap-1 w-full hover:cursor-pointer"
       >       
-{t('contacts.RequestCallback')}   <Image src={form} alt='icon' width={100} height={100} className='w-7 h-7 ' /> 
-      </Link>
+      {t('ContactTitle')}  <FaWpforms className='text-lg rotate-6'/>
+      </button>
   
       <button
         onClick={handleCallbackClose}

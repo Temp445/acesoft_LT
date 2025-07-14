@@ -55,7 +55,7 @@ const t = useTranslations('Header');
                 </Link>
 
                
-                <Link href="#contact" passHref>
+                <Link href="/demo/ace-products" passHref>
                   <div className="lg:hidden font-bold text-[12px] px-1 rounded bg-black text-white py-1 items-center ml-24 sm:ml-70">
                     {t('bookDemo')}
                   </div>
@@ -84,22 +84,22 @@ const t = useTranslations('Header');
                     {navigation.map((item) => (
 
                         item.href.startsWith('#') ? (
-    <button
-      key={item.name}
-      onClick={() => {
-        const el = document.getElementById(item.href.slice(1));
-        if (el) el.scrollIntoView({ behavior: 'smooth' });
-      }}
-      className={classNames(
+            <button
+              key={item.name}
+              onClick={() => {
+                const el = document.getElementById(item.href.slice(1));
+                if (el) el.scrollIntoView({ behavior: 'smooth' });
+              }}
+              className={classNames(
               item.current
-                              ? 'bg-gray-900 text-black'
-                              : 'hover-effect-1 hover:text-white cursor-pointer rounded-2xl',
-                            'rounded-md px-2 py-2 text-12 md:text-base font-semibold'
-                          )}
-    >
-      {item.name}
-    </button>
-  ):(
+                  ? 'bg-gray-900 text-black'
+                  : 'hover-effect-1 hover:text-white cursor-pointer rounded-2xl',
+                'rounded-md px-2 py-2 text-12 md:text-base font-semibold'
+              )}
+                >
+                  {item.name}
+                </button>
+              ):(
                       <Link key={item.name} href={item.href} passHref>
                         <div
                           className={classNames(

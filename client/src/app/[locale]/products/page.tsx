@@ -117,7 +117,7 @@ const ProductsPage: React.FC = () => {
   };
 
   const goToProduct = (product: Product) => {
-    router.push(`/${product.productPath}`);
+    router.push(`/products/${product.productPath}`);
   };
 
   return (
@@ -200,7 +200,7 @@ const ProductsPage: React.FC = () => {
                       </p>
                       <div onClick={() => goToProduct(product)}>
                         <div className="flex justify-between mt-4">
-                          <Link href={`/${product.productPath}`} className="text-sm hover:underline flex">
+                          <Link href={`/products/${product.productPath}`} className="text-sm hover:underline flex">
                             {t('LearnMore')}
                             <span className="mt-1 ml-1">
                               <FaArrowAltCircleRight />
@@ -217,7 +217,7 @@ const ProductsPage: React.FC = () => {
 
         </div>
       </div>
-              <NotificationButton/>
+      <NotificationButton productPath={""} productName={""}/>
                 <Footer />
     </div>
   );

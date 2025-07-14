@@ -58,6 +58,9 @@ const productSchema = new mongoose.Schema({
   productLink: {
     type: String,
   },
+  calendlyUrl: {
+    type: String,
+  },
   productPath: {
     type: String,
     required: true,

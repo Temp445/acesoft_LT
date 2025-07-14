@@ -359,7 +359,7 @@ const HomePage: React.FC = () => {
                 className="flex justify-start"
               >
                 <Link
-                  href={`/${products[0]?.productPath}`}
+                  href={`/products/${products[0]?.productPath}`}
                   className="mt-4 flex items-center gap-2 text-[12px] sm:text-sm text-[#F7666F] font-semibold"
                 >
                   {t('button.readmore')} <FaArrowAltCircleRight className="mt-0.5" />
@@ -419,7 +419,7 @@ const HomePage: React.FC = () => {
                 className="flex justify-start"
               >
                 <Link
-                  href={`/${products[1]?.productPath}`}
+                  href={`/products/${products[1]?.productPath}`}
                   className="mt-4 flex items-center gap-2 text-[12px] sm:text-sm text-[#F7666F] font-semibold"
                 >
                    {t('button.readmore')} <FaArrowAltCircleRight className="mt-0.5" />
@@ -459,7 +459,7 @@ const HomePage: React.FC = () => {
           </p>
 
           <Link
-            href="/contact"
+            href="/demo/all-products"
             className="overflow-hidden inline-flex md:mt-8 gap-3 text-sm md:text-lg items-center justify-center px-6 py-3 border border-red-500 font-medium rounded-full hover:bg-red-600 hover:text-white transition-colors duration-200 shadow-lg"
           >
             <span className="mb-1">
@@ -469,7 +469,7 @@ const HomePage: React.FC = () => {
           </Link>
         </div>
       </div>
-        <NotificationButton/>
+        <NotificationButton productPath={""} productName={""}/>
 
       {/* Client Carousel */}
       <motion.div

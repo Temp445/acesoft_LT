@@ -58,6 +58,7 @@ const languages = [
        <div className="group">
            <Link
             href="https://home.acecms.in/"
+            target="_blank"
             className="flex items-center text-[#2b2d42] text-sm border border-teal-50 rounded-t-md rounded-l-md   font-semibold relative px-3 py-1 transition-all duration-300 ease-in-out hover:border-black hover:bg-white hover:scale-105"
           >
             CMS
@@ -70,6 +71,7 @@ const languages = [
      <div className="group">
            <Link
             href="https://crm.acesoftcloud.in/"
+            target="_blank"
             className="flex items-center text-[#2b2d42] border border-teal-50  text-sm font-semibold relative px-3 py-1 rounded-t-md rounded-l-md transition-all duration-300 ease-in-out hover:border-black hover:bg-white   hover:scale-105"
           >
             CRM
@@ -93,7 +95,8 @@ const languages = [
 
         <div className="group">
            <Link
-            href="/ace-project"
+            href="https://project.acesoftcloud.in/"
+            target="_blank"
             className="flex items-center text-[#2b2d42] border border-teal-50 rounded-t-md rounded-l-md text-sm font-semibold relative px-3 py-1  transition-all duration-300 ease-in-out  hover:border-black hover:bg-white  hover:scale-105"
           >
             Project

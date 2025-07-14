@@ -46,7 +46,7 @@ const handleCallback = (url: string) => {
         <button
           onClick={() => handleCallback('/request_callback')}
           className="inline-block bg-red-500 hover:bg-red-600 px-5 py-2 text-sm font-semibold rounded">
-        {t('button')}
+        {t('contact')}
         </button>
       </div>
 

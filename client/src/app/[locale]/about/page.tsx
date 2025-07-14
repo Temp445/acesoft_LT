@@ -316,7 +316,7 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-      <NotificationButton/>
+      <NotificationButton productPath={""} productName={""}/>
       <Footer/>
     </div>
 

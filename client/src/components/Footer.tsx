@@ -64,7 +64,7 @@ const Footer = () => {
               <div className="flex flex-col space-y-2 md:space-y-2">
                 <a href="tel:+919840137210" className="text-xs md:text-sm xl:text-base">{t('links.phone')}: <br /><span className="text-gray-800 underline">+91 9840137210 </span> </a>
                 <a href="mailto:sales@acesoft.in"  className="text-xs md:text-sm xl:text-base ">{t('links.email')}: <br /><span className="text-gray-800 underline">sales@acesoft.in </span> </a>
-                <Link href="/contact" className="text-xs md:text-sm xl:text-base hover:text-gray-600 transition-colors ">{t('links.bookDemo')}</Link>
+                <Link href="/demo/all-products" className="text-xs md:text-sm xl:text-base hover:text-gray-600 transition-colors ">{t('links.bookDemo')}</Link>
               </div>
             </div>
           </div>

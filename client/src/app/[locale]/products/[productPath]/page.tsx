@@ -7,17 +7,18 @@ import { TiArrowForward } from "react-icons/ti";
 import { FaCircleDot } from "react-icons/fa6";
 import { MdOutlineSubdirectoryArrowRight } from "react-icons/md";
 import { motion } from "framer-motion";
-import AboutPage1 from "../../../components/AboutPage1";
-import Header1 from "../../../components/Header1";
-import Header from "../../../components/Header";
+import AboutPage1 from "@/components/AboutPage1";
+import Header1 from "@/components/Header1";
+import Header from "@/components/Header";
 import ContactUs from "@/components/Contact";
-import BookCard from "@/components/BookCard";
 // import { env } from "@/lib/env"
 import { useLocale } from 'next-intl';
 import { useTranslations } from "next-intl";
 import NotificationButton from "@/components/NotificationButton";
 import Commonbar from "@/components/Commonbar";
 import Footer from "@/components/Footer";
+import BookCard from "@/components/BookCard";
+
 const apiUrl = process.env.NEXT_PUBLIC_API_URL || "";
 
 interface LocalizedString {
@@ -64,6 +65,7 @@ interface Product {
   who_need_des?: LocalizedString;
   description?: LocalizedString;
   productLink?: string;
+  calendlyUrl?: string;
   why_choose_des?: LocalizedString;
   benefits?: Benefit[];
   customerTestimonials?: Testimonial[];
@@ -74,7 +76,8 @@ interface Product {
 const ProductDetails: React.FC = () => {
   const locale = useLocale();
   const translate = (text?: LocalizedString) => text?.[locale] ?? text?.en ?? "";
-  const t = useTranslations('products')
+  const t = useTranslations('products');
+
   const router = useRouter();
   const searchParams = useSearchParams();
   const { productPath } = useParams() as { productPath: string };
@@ -181,6 +184,13 @@ const ProductDetails: React.FC = () => {
 
   const productImage = getProductImage();
   const productImages = getProductImages();
+  
+  const productName = product?.productName ?? "";
+  const productPathValue = product?.productPath ?? "";
+
+   const handleBookDemo = () => {
+    router.push(`/demo/${productPath}`)
+  }
 
   // Animation variants
   const fadeIn = {
@@ -212,7 +222,6 @@ const ProductDetails: React.FC = () => {
           <Header />
         </div>
       )}
-
 
       <div className="container mx-auto  p-2 sm:p-6 overflow-hidden">
 
@@ -278,27 +287,15 @@ const ProductDetails: React.FC = () => {
                   {t('TryButton')}
                 </button>
               ) : null}
-
-
-              {showNavbar1 && (
-                <button
-                  className="bg-blue-500 text-[13px] md:text-sm md:ml-1 px-4 py-2 rounded-lg mt-5 text-white hover:bg-blue-700 transition hover:scale-105"
-                  onClick={() => router.push("/demo")}
-                >
-                  {t('Demobutton')}
-                </button>
-
-              )}
-              {showNavbar && (
+            
 
                 <button
                   className="bg-blue-500 text-[13px] md:text-sm md:ml-1 px-4 py-2 rounded-lg mt-5 text-white hover:bg-blue-700 transition hover:scale-105"
-                  onClick={() => router.push("#contact")}
+                  onClick={() =>  router.push(product?.calendlyUrl ? `/demo/${productPath}` : '/contact')}
                 >
                   {t('Demobutton')}
                 </button>
-              )}
-
+              
             </div>
           </motion.div>
 
@@ -562,8 +559,8 @@ const ProductDetails: React.FC = () => {
                     }}
                   >
                     <p className="text-gray-700 italic">
-  "{testimonial?.description ? translate(testimonial.description as LocalizedString) : 'No description'}"
-</p>
+                   "{testimonial?.description ? translate(testimonial.description as LocalizedString) : 'No description'}"
+                 </p>
 
                     <h3 className="mt-4 md:text-lg font-semibold text-gray-800">
                      
@@ -713,7 +710,7 @@ const ProductDetails: React.FC = () => {
 
         ) : null}
 
-        <BookCard />
+        <BookCard onClick={handleBookDemo}/>
 
         {showAbout && (
           <div className=" mt-14 md:mt-28 ">
@@ -721,13 +718,12 @@ const ProductDetails: React.FC = () => {
           </div>
         )}
 
-
         {showAbout && (
           <div className="mt-24">
             <ContactUs />
           </div>
         )}
-        <NotificationButton/>
+        <NotificationButton productPath={productPathValue} productName={productName} />
         <Footer/>
       </div>
     </div>

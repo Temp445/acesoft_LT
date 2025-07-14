@@ -60,9 +60,8 @@ export default function Header(): JSX.Element {
     { name: t('Product'), href: '/products' },
     { name: t('Contact'), href: '/contact' },
     { name: t('About'), href: '/about' },
-    // { name: t('Dashboard'), href: '/admin',  className: 'md:hidden lg:block' },
     isAuthenticated
-      ? { name: t('Logout'), href: '/', onClick: handleLogout }
+      ? { name: t('Logout'), href: '#', onClick: handleLogout }
       : { name: t('Login'), href: '/login', className: 'md:hidden lg:block' },
   ];
 
@@ -139,7 +138,7 @@ export default function Header(): JSX.Element {
                 </Link>
 
                 <Link
-                  href="/demo"
+                  href="/demo/all-products"
                   className="flex font-bold w-14 h-full justify-center  border-l border-white text-white items-center"
                 >
                   <LuMessageSquareMore className="text-3xl" />

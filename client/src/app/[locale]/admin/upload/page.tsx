@@ -44,6 +44,7 @@ interface Plan {
 }
 
 interface ProductData {
+  calendlyUrl: string | number | readonly string[] | undefined;
   productName: string;
   productLink: string;
   productPath: string;
@@ -63,6 +64,7 @@ const ProductUpload: React.FC = () => {
   const [productData, setProductData] = useState<ProductData>({
     productName: '',
     productLink: '',
+    calendlyUrl: '',
     productPath: '',
     description: { en: '' },
     why_choose_des: { en: '' },
@@ -336,6 +338,10 @@ const ProductUpload: React.FC = () => {
            <label className="block text-sm font-medium text-gray-700">Product Link</label>
         <input name="productLink" placeholder="Product Link" value={productData.productLink} onChange={handleChange} className="w-full p-2 border border-gray-300 rounded" />
          </div>
+         <div className="space-y-2">
+           <label className="block text-sm font-medium text-gray-700">Calendly Url</label>
+        <input name="calendlyUrl" placeholder="Calendly Url" value={productData.calendlyUrl} onChange={handleChange} className="w-full p-2 border border-gray-300 rounded" />
+       </div>
        <div className="space-y-2">
            <label className="block text-sm font-medium text-gray-700">Product Path</label>
         <input name="productPath" placeholder="Product Path" value={productData.productPath} onChange={handleChange} className="w-full p-2 border border-gray-300 rounded" />

@@ -47,6 +47,7 @@ interface Plan {
 interface ProductData {
   productName: string;
   productLink: string;
+  calendlyUrl: string;
   productPath: string;
   description: LocalizedString;
   why_choose_des: LocalizedString;
@@ -69,6 +70,7 @@ const ProductEdit: React.FC = () => {
   const [productData, setProductData] = useState<ProductData>({
     productName: '',
     productLink: '',
+    calendlyUrl: '',
     productPath: '',
     description: { en: '' },
     why_choose_des: { en: '' },
@@ -134,6 +136,7 @@ const ProductEdit: React.FC = () => {
         setProductData({
           productName: data.productName || '',
           productLink: data.productLink || '',
+          calendlyUrl: data.calendlyUrl || '',
           productPath: data.productPath || '',
           description: convertToLocalized(data.description),
           why_choose_des: convertToLocalized(data.why_choose_des),
@@ -429,6 +432,19 @@ const ProductEdit: React.FC = () => {
             name="productLink"
             placeholder="Product Link"
             value={productData.productLink || ''}
+            onChange={handleChange}
+            className="w-full p-2 border border-gray-300 rounded"
+          />
+        </div>
+
+
+         <div>
+          <label className="block mb-2">Calendly Url :</label>
+          <input
+            type="text"
+            name="calendlyUrl"
+            placeholder="Calendly Url"
+            value={productData.calendlyUrl || ''}
             onChange={handleChange}
             className="w-full p-2 border border-gray-300 rounded"
           />
